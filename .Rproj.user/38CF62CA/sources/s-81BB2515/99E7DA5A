@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1554322213159.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "99E7DA5A",
+    "lastKnownWriteTime" : 1554323628,
+    "last_content_update" : -2147483648,
+    "path" : "C:/Users/Xinyi.Li/Downloads/re(1)/re(1)/app.R",
+    "project_path" : "app.R",
+    "properties" : {
+        "cursorPosition" : "72,2",
+        "scrollLine" : "58"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

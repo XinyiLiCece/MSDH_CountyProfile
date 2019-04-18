@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1555013132894.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1C52AC98",
+    "lastKnownWriteTime" : 1555084470,
+    "last_content_update" : -2147483648,
+    "path" : "~/4_17/re(1)/profileSearch.R",
+    "project_path" : "profileSearch.R",
+    "properties" : {
+        "cursorPosition" : "20,34",
+        "scrollLine" : "0",
+        "source_window_id" : ""
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

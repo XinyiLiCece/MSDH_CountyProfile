@@ -1,0 +1,84 @@
+shiny::runApp()
+runApp()
+tags$div(class = "line-graph",
+# checkboxGroupInput(ns("variabler"), "Variables to show:",
+# c("black" = "black",
+#   "white" = "white",
+#   "asian" = "asian"),
+# selected = "black"),
+checkboxGroupInput(ns("variabler"), "Variables to show:",
+choices = c("a","b"),
+""),
+textOutput(ns("textline")),
+downloadButton(ns('downloadData'), 'Download'),
+plotlyOutput(ns("graph_block"))
+)
+runApp()
+clear
+c
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+updateCheckboxGroupInput(session, inputId = "variabler",
+choices = c("c","d"),
+selected = c("c","d")
+# choices = checkboxChoices(),
+# selected = checkboxChoices()
+)
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+y <- list(
+title = "Race"
+)
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()

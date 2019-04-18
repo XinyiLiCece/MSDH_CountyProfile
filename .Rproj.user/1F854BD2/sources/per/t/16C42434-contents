@@ -1,0 +1,34 @@
+navBlockUI <- function(id) {
+  ns <- NS(id)
+  tags$div(
+    tags$div(class = "tabPanel-plotBlock",
+             tabsetPanel(type = "tabs",
+                         tabPanel("Graph", lineGraphUI(ns("line"))),
+                         tabPanel("stack-bar", stackBarGraphUI(ns("bar"))),
+                         tabPanel("table", tablePlotUI(ns("table")))
+             )
+    )
+  )
+}
+
+navBlock <- function(input, output, session, data, graphId) {
+  # dataCountyPopulation <- read.csv(file = "CountyPopulation.csv", header = TRUE)
+  # 
+  # dataPopulationByGender <- read.csv(file = "PopulationByGender.csv", header =TRUE)
+  # 
+  # callModule(lineGraph, "line",dataCountyPopulation)
+  # 
+  # callModule(tablePlot, "table", dataCountyPopulation)
+  if (graphId == 1) {
+    callModule(lineGraph, "line",data)
+    
+    callModule(tablePlot, "table", data)
+  } 
+  else if (graphId == 2) {
+    callModule(stackBarGraph, "bar",data)
+    
+    callModule(tablePlot, "table", data)
+  }
+  
+  
+}

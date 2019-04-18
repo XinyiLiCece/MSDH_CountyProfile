@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1553986432996.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3636051455",
+    "id" : "B7D1BC58",
+    "lastKnownWriteTime" : 1554090895,
+    "last_content_update" : 1554090895332,
+    "path" : "~/Desktop/re(1)/lineGraph.R",
+    "project_path" : "lineGraph.R",
+    "properties" : {
+        "cursorPosition" : "40,20",
+        "scrollLine" : "35"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

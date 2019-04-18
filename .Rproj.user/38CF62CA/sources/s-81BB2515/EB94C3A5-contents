@@ -1,0 +1,35 @@
+groupBarGraphUI <- function(id) {
+  ns <- NS(id)
+  
+  tags$div(class = "line-graph",
+           plotlyOutput(ns("graph_block"))
+  )
+}
+
+groupBarGraph <- function(input, output, session, dataTB, filename) {
+  ns <- session$ns
+  
+  labelx <- colnames(dataTB[1])
+  
+  labely <- colnames(dataTB[3:ncol(dataTB)])
+  
+  output$graph_block <- renderPlotly({
+    x <- list(
+      title = toString(labelx)
+    )
+    y <- list(
+      title = "Count"
+    )
+
+    labelxToChar <- as.character(dataTB[[labelx]])
+
+    p <- plot_ly(dataTB, x = labelxToChar) %>%
+      layout(yaxis = list(title = 'Count'), width = '100%', height = '100%',  barmode = 'group')
+    p
+    for (cn in labely) {
+      p <- add_bars(p, y = dataTB[[cn]],
+                     name = cn)
+    }
+    p
+  })
+}

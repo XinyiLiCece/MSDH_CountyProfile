@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1554089463600.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1302918652",
+    "id" : "9495FC5F",
+    "lastKnownWriteTime" : 1554091099,
+    "last_content_update" : 1554091099639,
+    "path" : "~/Desktop/re(1)/profilePage-pc.R",
+    "project_path" : "profilePage-pc.R",
+    "properties" : {
+        "cursorPosition" : "17,49",
+        "scrollLine" : "4"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1554090585770.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1866451033",
+    "id" : "E6019097",
+    "lastKnownWriteTime" : 1554090663,
+    "last_content_update" : 1554090663459,
+    "path" : "~/Desktop/re(1)/stackBarGraph.R",
+    "project_path" : "stackBarGraph.R",
+    "properties" : {
+        "cursorPosition" : "11,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

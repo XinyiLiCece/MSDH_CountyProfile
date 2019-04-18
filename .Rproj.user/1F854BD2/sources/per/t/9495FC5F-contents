@@ -1,0 +1,20 @@
+pcPageUI <- function(id) {
+  ns <- NS(id)
+  tags$div(class = "pcPage",
+           tags$div(class = "pc-Page-graph-container"),
+           navBlockUI(ns("try1")),
+           navBlockUI(ns("try2")),
+           navBlockUI(ns("try3"))
+           )
+  }
+
+pcPage<- function(input, output, session, sectionName) {
+  dataCountyPopulation <- read.csv(file = "CountyPopulation.csv", header = TRUE)
+  
+  dataPopulationByGender <- read.csv(file = "PopulationByGender.csv", header =TRUE)
+  
+  callModule(navBlock, "try1", dataCountyPopulation, "1")
+  
+  callModule(navBlock, "try2", dataPopulationByGender, "2")
+  
+}

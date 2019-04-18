@@ -1,0 +1,62 @@
+lineGraphUI <- function(id) {
+  ns <- NS(id)
+  
+  tags$div(class = "line-graph",
+           htmlOutput(ns("checkbox")),
+           textOutput(ns("textline")),
+           downloadButton(ns('downloadData'), 'Download'),
+           plotlyOutput(ns("graph_block"))
+  )
+}
+
+
+lineGraph <- function(input, output, session, dataTB) {
+  ns <- session$ns
+  
+  checkboxChoices <- as.list(colnames(dataTB[2:ncol(dataTB)]))
+  
+  output$checkbox <- renderUI({
+         checkboxGroupInput(ns("variabler"), "Variables to show:",
+           choices = checkboxChoices,
+           selected = checkboxChoices)
+  })
+  
+  output$textline <- renderText({
+    input$variabler
+  })
+  
+  headerR <- reactive({
+    return(input$variabler)
+  })
+  
+  dataf <- reactive({
+    return(dataTB)
+  })
+  
+  output$graph_block <- renderPlotly({
+    x <- list(
+      title = "Year"
+    )
+    y <- list(
+      title = "Race"
+    )
+    
+    p <- plot_ly(dataTB, x = ~year) %>%
+      layout(xaxis = x, yaxis = y, x = 1, y = 1, width = '100%', height = '100%')
+    p
+    for (cn in headerR()) {
+      p <- add_lines(p, y = dataTB[[cn]],
+                     name = cn)
+    }
+    p
+  })
+  
+  output$downloadData <- downloadHandler(
+    filename = function() {
+      paste("PopulationPercentage", ".csv", sep = "")
+    },
+    content = function(file) {
+      write.csv(dataTB, file)
+    }
+  )
+}

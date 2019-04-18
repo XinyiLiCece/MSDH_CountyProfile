@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1554088215534.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3627537168",
+    "id" : "16C42434",
+    "lastKnownWriteTime" : 1554091265,
+    "last_content_update" : 1554091265433,
+    "path" : "~/Desktop/re(1)/togglableBlock.R",
+    "project_path" : "togglableBlock.R",
+    "properties" : {
+        "cursorPosition" : "4,24",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
