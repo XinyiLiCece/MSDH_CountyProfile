@@ -18,6 +18,7 @@ source('selectBox.R', local = TRUE)
 
 # Define UI for random distribution app ----
 ui <- fluidPage(
+  useShinyjs(),
   tags$head(
     tags$link(rel = "stylesheet", type = "text/css", href = "index.css")
     # tags$script(src = "temp.js")
@@ -77,6 +78,8 @@ server <- function(input, output) {
   # callModule(profilePage, "hellohi")
   
   callModule(profileSearch, "search")
+  
+  router(input, output)
 }
 
 # Run the application 
