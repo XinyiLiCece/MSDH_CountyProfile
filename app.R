@@ -1,5 +1,6 @@
 library(shiny)
 library(plotly)
+library(shiny.router)
 source('profilePage.R', local = TRUE)
 source('togglableBlock.R', local = TRUE)
 source('lineGraph.R', local = TRUE)
@@ -18,7 +19,6 @@ source('selectBox.R', local = TRUE)
 
 # Define UI for random distribution app ----
 ui <- fluidPage(
-  useShinyjs(),
   tags$head(
     tags$link(rel = "stylesheet", type = "text/css", href = "index.css")
     # tags$script(src = "temp.js")
@@ -76,7 +76,7 @@ server <- function(input, output) {
   callModule(aboutPage, "about")
   
   # callModule(profilePage, "hellohi")
-  
+  install.packages("devtools")
   callModule(profileSearch, "search")
   
   router(input, output)
