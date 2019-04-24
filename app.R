@@ -16,6 +16,7 @@ source('groupBarGraph.R')
 source('searchBox.R', local = TRUE)
 source('checkBox.R', local = TRUE)
 source('selectBox.R', local = TRUE)
+source('try.R', local = TRUE)
 
 # Define UI for random distribution app ----
 ui <- fluidPage(

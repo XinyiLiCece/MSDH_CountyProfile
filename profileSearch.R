@@ -1,15 +1,34 @@
+tryUI <- function(id) {
+  ns <- NS(id)
+  tags$div(class = "dash-selectbox",
+           htmlOutput(ns("try"))
+  )
+}
+
+try <- function(input, output, session) {
+  ns <- session$ns
+  output$try <- renderUI({
+    tags$div("fd")
+  })
+}
+
 # This creates UI for each page.
-page <- function(title, content) {
+homepage <- function(title, content) {
   div(
     titlePanel(title),
     p(content),
     uiOutput("power_of_input")
   )
 }
-
+sidepage <- function(title) {
+  div(
+    titlePanel(title),
+    uiOutput("tryOut")
+  )
+}
 # Part of both sample pages.
-home_page <- page("Home page", "This is the home page!")
-side_page <- page("Side page", "This is the side p age!")
+home_page <- homepage("Home page", "This is the home page!")
+side_page <- sidepage("Side page")
 
 home_server <- function(input, output, session) {
   output$power_of_input <- renderUI({
@@ -19,14 +38,14 @@ home_server <- function(input, output, session) {
 }
 
 side_server <- function(input, output, session) {
+  ns <- session$ns
   session$userData$cn <- "ams"
-  print(session$userData$cn)
-  output$power_of_input <- renderUI({
-    HTML(paste(
-      "I display <strong>cube</strong> of input and <strong>also</strong> pass result to <code>output$power_of_input</code>: "))
+  # print(session$userData$cn)
+  output$tryOut <- renderUI({
+    tryUI(ns("hf"))
   })
+  callModule(try, "hf")
 }
-
 
  router <- make_router(
    route("home", home_page, home_server),
@@ -38,6 +57,7 @@ side_server <- function(input, output, session) {
 profileSearchUI <- function(id, inputText) {
   ns <- NS(id)
   tags$div(class = "tabPanel-profileSearch",
+           # tryUI(ns("tyh")),
            actionButton(ns("tryRouter"), "Try"
                         ),
            # router_ui(),
@@ -53,6 +73,7 @@ profileSearchUI <- function(id, inputText) {
 
 
 profileSearch <- function(input, output, session) {
+  # callModule(try, "tyh")
   ns <- session$ns
   
   
@@ -93,4 +114,3 @@ profileSearch <- function(input, output, session) {
   # })
   
 }
-
