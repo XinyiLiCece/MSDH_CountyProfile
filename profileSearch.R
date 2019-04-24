@@ -19,6 +19,8 @@ home_server <- function(input, output, session) {
 }
 
 side_server <- function(input, output, session) {
+  session$userData$cn <- "ams"
+  print(session$userData$cn)
   output$power_of_input <- renderUI({
     HTML(paste(
       "I display <strong>cube</strong> of input and <strong>also</strong> pass result to <code>output$power_of_input</code>: "))
@@ -80,8 +82,6 @@ profileSearch <- function(input, output, session) {
   # })
   # 
   observeEvent(input$tryRouter, {
-    print("is home")
-    print((is_page("home")))
     change_page("side")
   })
 
