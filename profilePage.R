@@ -17,17 +17,46 @@ profilePageUI <- function(id, inputText) {
     )
   )
 }
+# 
+# 
+# profilePage <- function(input, output, session, countyName) {
+#   output$headerUI <- renderUI({
+#     countyName
+#   })
+#   
+#   callModule(pcPage, "tryPcPage")
+#   
+#   # callModule(submenu, "pc")
+# 
+#   output$y <- renderText({
+#     "y"
+#   })
+#   output$z <- renderText({
+#     "z"
+#   })
+#   output$z1 <- renderText({
+#     "z1"
+#   })
+#   output$z2 <- renderText({
+#     "z2"
+#   })
+#   output$a <- renderText({
+#     "a"
+#   })
+#   output$b <- renderText({
+#     "bcd"
+#   })
+# }
+# 
 
 
-profilePage <- function(input, output, session, countyName) {
-  output$headerUI <- renderUI({
-    countyName
-  })
-  
+
+profilePage <- function(input, output, session) {
+
   callModule(pcPage, "tryPcPage")
   
   # callModule(submenu, "pc")
-
+  
   output$y <- renderText({
     "y"
   })

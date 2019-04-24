@@ -189,4 +189,48 @@ Total 11 (delta 5), reused 0 (delta 0)[0K
 [0K[?25h[?25l
 [0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
 $[0K[3G[?25h[?25l$ git[0K[7G[?25h[8G[7G[6G[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add .[0K[?25h[13G[12G[?25l
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/3CB03A20/sources/prop/1B733BDF.[0K[?25l
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/3CB03A20/sources/prop/63DE83A.[0K[?25l
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/3CB03A20/sources/prop/8CAF9005.[0K[?25l
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/3CB03A20/sources/prop/INDEX.[0K
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/paths.[0K[?25l
+The file will have its original line endings in your working directory[0K
+[0K[?25h[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25h[16G[15G[?25l$ git commit -m[0K[?25h[17G[?25l$ git commit -m '[0K[?25h'[0K[18G[?25l$ git commit -m 'u'[0K[19G[?25h[?25l$ git commit -m 'us'[0K[20G[?25h[?25l$ git commit -m 'use'[0K[21G[?25h[?25l$ git commit -m 'use '[0K[22G[?25h[?25l$ git commit -m 'use t'[0K[23G[?25h[?25l$ git commit -m 'use tr'[0K[24G[?25h[?25l$ git commit -m 'use try'[0K[25G[?25h[?25l$ git commit -m 'use try '[0K[26G[?25h[?25l$ git commit -m 'use try m'[0K[27G[?25h[?25l$ git commit -m 'use try mo'[0K[28G[?25h[?25l$ git commit -m 'use try mod'[0K[29G[?25h[?25l$ git commit -m 'use try modu'[0K[30G[?25h[?25l$ git commit -m 'use try modul'[0K[31G[?25h[?25l$ git commit -m 'use try module'[0K[32G[?25h[?25l$ git commit -m 'use try module '[0K[33G[?25h[?25l$ git commit -m 'use try module i'[0K[34G[?25h[?25l$ git commit -m 'use try module in'[0K[35G[?25h[?25l$ git commit -m 'use try module in '[0K[36G[?25h[?25l$ git commit -m 'use try module in s'[0K[37G[?25h[?25l$ git commit -m 'use try module in si'[0K[38G[?25h[?25l$ git commit -m 'use try module in sid'[0K[39G[?25h[?25l$ git commit -m 'use try module in side'[0K[40G[?25h[?25l$ git commit -m 'use try module in side '[0K[41G[?25h[?25l$ git commit -m 'use try module in side p'[0K[42G[?25h[?25l$ git commit -m 'use try module in side pa'[0K[43G[?25h[?25l$ git commit -m 'use try module in side pag'[0K[44G[?25h[?25l$ git commit -m 'use try module in side page'[0K[45G[?25h[?25l$ git commit -m 'use try module in side page '[0K[46G[?25h[?25l$ git commit -m 'use try module in side page a'[0K[47G[?25h[?25l$ git commit -m 'use try module in side page an'[0K[48G[?25h[?25l$ git commit -m 'use try module in side page and'[0K[49G[?25h[?25l$ git commit -m 'use try module in side page and '[0K[50G[?25h[?25l$ git commit -m 'use try module in side page and p'[0K[51G[?25h[?25l$ git commit -m 'use try module in side page and pr'[0K[52G[?25h[?25l$ git commit -m 'use try module in side page and pri'[0K[53G[?25h[?25l$ git commit -m 'use try module in side page and prin'[0K[54G[?25h[?25l$ git commit -m 'use try module in side page and print'[0K[55G[?25h[?25l$ git commit -m 'use try module in side page and print '[0K[56G[?25h[?25l$ git commit -m 'use try module in side page and print'[0K[?25h[55G[?25l$ git commit -m 'use try module in side page and prin'[0K[54G[?25h[?25l$ git commit -m 'use try module in side page and pri'[0K[53G[?25h[?25l$ git commit -m 'use try module in side page and pr'[0K[52G[?25h[?25l$ git commit -m 'use try module in side page and p'[0K[51G[?25h[?25l$ git commit -m 'use try module in side page and '[0K[50G[?25h[?25l$ git commit -m 'use try module in side page and p'[0K[51G[?25h[?25l$ git commit -m 'use try module in side page and pa'[0K[52G[?25h[?25l$ git commit -m 'use try module in side page and pas'[0K[53G[?25h[?25l$ git commit -m 'use try module in side page and pass'[0K[54G[?25h[?25l$ git commit -m 'use try module in side page and pass '[0K[55G[?25h[?25l$ git commit -m 'use try module in side page and pass u'[0K[56G[?25h[?25l$ git commit -m 'use try module in side page and pass us'[0K[57G[?25h[?25l$ git commit -m 'use try module in side page and pass use'[0K[58G[?25h[?25l$ git commit -m 'use try module in side page and pass user'[0K[59G[?25h[?25l$ git commit -m 'use try module in side page and pass userD'[0K[60G[?25h[?25l$ git commit -m 'use try module in side page and pass userDa'[0K[61G[?25h[?25l$ git commit -m 'use try module in side page and pass userDat'[0K[62G[?25h[?25l$ git commit -m 'use try module in side page and pass userData'[0K[63G[?25h[?25l$ git commit -m 'use try module in side page and pass userData '[0K[64G[?25h[?25l$ git commit -m 'use try module in side page and pass userData c'[0K[65G[?25h[?25l$ git commit -m 'use try module in side page and pass userData cn'[0K[66G[?25h[?25l$ git commit -m 'use try module in side page and pass userData cn '[0K[67G[?25h[?25l$ git commit -m 'use try module in side page and pass userData cn t'[0K[68G[?25h[?25l$ git commit -m 'use try module in side page and pass userData cn to'[0K[69G[?25h[?25l$ git commit -m 'use try module in side page and pass userData cn to '[0K[70G[?25h[?25l$ git commit -m 'use try module in side page and pass userData cn to t'[0K[71G[?25h[?25l$ git commit -m 'use try module in side page and pass userData cn to tr'[0K[72G[?25h[?25l$ git commit -m 'use try module in side page and pass userData cn to try'[0K[73G[?25h[?25l$ git commit -m 'use try module in side page and pass userData cn to try '[0K[74G[?25h[?25l$ git commit -m 'use try module in side page and pass userData cn to try m'[0K[75G[?25h[?25l$ git commit -m 'use try module in side page and pass userData cn to try mo'[0K[76G[?25h[?25l$ git commit -m 'use try module in side page and pass userData cn to try mod'[0K[77G[?25h[?25l$ git commit -m 'use try module in side page and pass userData cn to try modu'[0K[78G[?25h[?25l$ git commit -m 'use try module in side page and pass userData cn to try modul'[0K[79G[?25h[?25l$ git commit -m 'use try module in side page and pass userData cn to try module'[0K[80G[?25h[?25l
+[0K[?25h[master 8196cbf] use try module in side page and pass userData cn to try module[0K[?25l
+ Committer: Li <Xinyi.Li@msdh.ms.gov>[0K
+Your name and email address were configured automatically based[0K
+on your username and hostname. Please check that they are accurate.[0K
+You can suppress this message by setting them explicitly. Run the[0K
+following command and follow the instructions in your editor to edit[0K
+your configuration file:[0K
+[0K
+    git config --global --edit[0K
+[0K
+After doing this, you may fix the identity used for this commit with:[0K
+[0K
+    git commit --amend --reset-author[0K
+[0K
+ 9 files changed, 96 insertions(+), 16 deletions(-)[0K
+ create mode 100644 try.R[0K
+[0K[?25h[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[?25l
+[0K[?25hEnumerating objects: 34, done.[0K[?25l
+Counting objects: 100% (34/34), done.[0K
+Delta compression using up to 8 threads[0K
+[0K[?25hCompressing objects: 100% (16/16), done.[0K[?25l
+Writing objects: 100% (18/18), 2.41 KiB | 617.00 KiB/s, done.[0K
+Total 18 (delta 8), reused 0 (delta 0)[0K
+[0K[?25hremote: Resolving deltas: 100% (8/8), completed with 8 local objects.[0K[?25l
+[0K[?25hTo https://github.com/XinyiLiCece/MSDH_CountyProfile.git[0K[?25l
+   a5557bb..8196cbf  master -> master[0K
+[0K[?25h[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add .[0K[?25h[?25l
 [0K[?25h

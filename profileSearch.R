@@ -39,8 +39,7 @@ home_server <- function(input, output, session) {
 
 side_server <- function(input, output, session) {
   ns <- session$ns
-  session$userData$cn <- "ams"
-  # print(session$userData$cn)
+  session$userData$cn <- "check userDate"
   output$tryOut <- renderUI({
     tryUI(ns("hf"))
   })

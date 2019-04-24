@@ -8,9 +8,12 @@
  try <- function(input, output, session) {
    ns <- session$ns
    print(session$userData$cn)
-   output$try <- renderUI({
-     tags$div("fd")
+   output$select <- renderUI({
+     selectBoxUI(ns("sb"))
    })
+   selectBoxChoice <- list("stack", "group")
+   
+   callModule(selectBox, "sb", selectBoxChoice)
  }
 
 
