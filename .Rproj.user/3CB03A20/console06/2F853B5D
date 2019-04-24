@@ -60,4 +60,59 @@ $[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd
 [0K[?25h[?25l
 [0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
 $[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add .[0K[?25h[?25l
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/3CB03A20/sources/prop/1B733BDF.[0K[?25l
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/3CB03A20/sources/prop/8CAF9005.[0K[?25l
+The file will have its original line endings in your working directory[0K
+[0K[?25h[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25hm[0K[17G[?25l$ git commit -m '[0K[?25h'[0K[18G[?25l$ git commit -m 'i'[0K[19G[?25h[?25l$ git commit -m 'in'[0K[20G[?25h[?25l$ git commit -m 'ins'[0K[21G[?25h[?25l$ git commit -m 'inst'[0K[22G[?25h[?25l$ git commit -m 'insta'[0K[23G[?25h[?25l$ git commit -m 'instal'[0K[24G[?25h[?25l$ git commit -m 'install'[0K[25G[?25h[?25l$ git commit -m 'install '[0K[26G[?25h[?25l$ git commit -m 'install p'[0K[27G[?25h[?25l$ git commit -m 'install pa'[0K[28G[?25h[?25l$ git commit -m 'install pac'[0K[29G[?25h[?25l$ git commit -m 'install pack'[0K[30G[?25h[?25l$ git commit -m 'install packa'[0K[31G[?25h[?25l$ git commit -m 'install packag'[0K[32G[?25h[?25l$ git commit -m 'install package'[0K[33G[?25h[?25l$ git commit -m 'install package:'[0K[34G[?25h[?25l$ git commit -m 'install package: '[0K[35G[?25h[?25l$ git commit -m 'install package: ^V'[0K[37G[?25h[?25l$ git commit -m 'install package: '[0K[35G[?25h[?25l$ git commit -m 'install package:'[0K[34G[?25h[?25l$ git commit -m 'install package'[0K[33G[?25h[?25l$ git commit -m 'install packag'[0K[32G[?25h[33G[?25l$ git commit -m 'install packag[0K[?25he[0K[34G[?25l$ git commit -m 'install package devtools[0K[?25h[43G[?25l$ git commit -m 'install package devtools a[0K[?25hn[0Kd[0K[47G[?25l$ git commit -m 'install package devtools and s[0K[?25hh[0Ki[0Kn[0Ky[0K.[0Kr[0Ko[0Ku[0Kt[0Ke[0Kr[0K'[0K[?25l
+[0K[?25h[master e9e420a] install package devtools and shiny.router[0K[?25l
+ Committer: Li <Xinyi.Li@msdh.ms.gov>[0K
+Your name and email address were configured automatically based[0K
+on your username and hostname. Please check that they are accurate.[0K
+You can suppress this message by setting them explicitly. Run the[0K
+following command and follow the instructions in your editor to edit[0K
+your configuration file:[0K
+[0K
+    git config --global --edit[0K
+[0K
+After doing this, you may fix the identity used for this commit with:[0K
+[0K
+    git commit --amend --reset-author[0K
+[0K
+ 4 files changed, 11 insertions(+), 6 deletions(-)[0K
+[0K[?25h[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[?25l
+[0K[?25hTo https://github.com/XinyiLiCece/MSDH_CountyProfile.git[0K[?25l
+ [0;31m! [rejected]       [0m master -> master (non-fast-forward)[0K
+[0;31merror: failed to push some refs to 'https://github.com/XinyiLiCece/MSDH_CountyProfile.gi[0Kt
+'[0m[0K
+[0;33mhint: Updates were rejected because the tip of your current branch is behind[0m[0K
+[0;33mhint: its remote counterpart. Integrate the remote changes (e.g.[0m[0K
+[0;33mhint: 'git pull ...') before pushing again.[0m[0K
+[0;33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[0m[0K
+[0K[?25h[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Kl[0Kl[0K[?25l
+[0K[?25herror: Your local changes to the following files would be overwritten by merge:[0K[?25l
+        .Rproj.user/3CB03A20/console06/2F853B5D[0K
+Please commit your changes or stash them before you merge.[0K
+Aborting[0K
+[0K[?25h[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[12G[?25l$ git push o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[19G[?25l$ git push origin H[0K[?25hE[0KA[0KD[0K[24G[?25l$ git push origin HEAD -[0K[?25h-[0K[27G[26G[?25l$ git push origin HEAD --f[0K[?25ho[0Kr[0Kc[0Ke[0K[?25l
+[0K[?25hEnumerating objects: 21, done.[0K[?25l
+Counting objects:  71% (15/21)[0K[1G[?25hCounting objects: 100% (21/21), done.[0K[?25l
+Delta compression using up to 8 threads[0K
+Compressing objects: 100% (10/10), done.[0K
+Writing objects: 100% (11/11), 1.10 KiB | 1.10 MiB/s, done.[0K
+Total 11 (delta 5), reused 0 (delta 0)[0K
+[0K[?25hremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[0K[?25l
+[0K[?25hTo https://github.com/XinyiLiCece/MSDH_CountyProfile.git[0K[?25l
+ + 8048195...e9e420a HEAD -> master (forced update)[0K
+[0K[?25h[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25h[?25l$ git[0K[7G[?25h[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add .[0K[?25h[?25l
 [0K[?25h

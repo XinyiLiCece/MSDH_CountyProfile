@@ -80,7 +80,9 @@ profileSearch <- function(input, output, session) {
   # })
   # 
   observeEvent(input$tryRouter, {
-    onclick("tryRouter", "window.open('https://www.example.com')")
+    print("is home")
+    print((is_page("home")))
+    change_page("side")
   })
 
   # observeEvent(sB(), {
