@@ -8,6 +8,7 @@ source('table.R', local = TRUE)
 source('homePage.R', local = TRUE)
 source('msdh_intro.R', local = TRUE)
 source('submenu.R', local = TRUE)
+source('countyProfile.R', local = TRUE)
 source('profileSearch.R', local = TRUE)
 source('profilePage-pc.R', local = TRUE)
 source('profilePage-se.R', local = TRUE)
@@ -67,19 +68,20 @@ server <- function(input, output) {
     )
   })
   
-  # output$page2 <- renderUI({
-  #   profilePageUI("hellohi")
-  # })
-  
   output$page2 <- renderUI({
-    profileSearchUI("search")
+    countyProfileUI("countyProf")
   })
+
+  # output$page2 <- renderUI({
+  #   profileSearchUI("search")
+  # })
   
   callModule(aboutPage, "about")
   
   # callModule(profilePage, "hellohi")
   install.packages("devtools")
-  callModule(profileSearch, "search")
+  # callModule(profileSearch, "search")
+  callModule(countyProfile, "countyProf")
   
   router(input, output)
 }
