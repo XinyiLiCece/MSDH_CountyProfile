@@ -20,6 +20,7 @@ source('try.R', local = TRUE)
 
 # Define UI for random distribution app ----
 ui <- fluidPage(
+  useShinyjs(),  # Set up shinyjs
   tags$head(
     tags$link(rel = "stylesheet", type = "text/css", href = "index.css")
     # tags$script(src = "temp.js")

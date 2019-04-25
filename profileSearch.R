@@ -1,17 +1,3 @@
-tryUI <- function(id) {
-  ns <- NS(id)
-  tags$div(class = "dash-selectbox",
-           htmlOutput(ns("try"))
-  )
-}
-
-try <- function(input, output, session) {
-  ns <- session$ns
-  output$try <- renderUI({
-    tags$div("fd")
-  })
-}
-
 # This creates UI for each page.
 homepage <- function(title, content) {
   div(
@@ -97,9 +83,9 @@ profileSearch <- function(input, output, session) {
   #   return(input$searchBtn)
   # })
 
-  # sB <- reactive({
-  #   return(input$searchBtn)
-  # })
+  sB <- reactive({
+    return(input$searchBtn)
+  })
   # 
   observeEvent(input$tryRouter, {
     change_page("side")
@@ -111,5 +97,12 @@ profileSearch <- function(input, output, session) {
   #   })
   #   callModule(profilePage, "renderprofile", selected$name)
   # })
+  # 
+  observeEvent(sB(), {
+    output$renderPage <- renderUI({
+      profilePageUI(ns("renderprofile"))
+    })
+    callModule(profilePage, "renderprofile")
+  })
   
 }

@@ -18,7 +18,7 @@ selectBox <- function(input, output, session, selectBoxChoices) {
   returnSelected <- reactiveValues()
   
   observe({returnSelected$items <- input$select })
-  print(returnSelected$items)
+  # print(returnSelected$items)
   return(returnSelected)
 }
 

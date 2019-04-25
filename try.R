@@ -1,7 +1,8 @@
  tryUI <- function(id) {
    ns <- NS(id)
    tags$div(class = "dash-selectbox",
-            htmlOutput(ns("try"))
+            tags$h1("SIDE"),
+            htmlOutput(ns("renderPage"))
    )
  }
 
@@ -11,9 +12,10 @@
    output$select <- renderUI({
      selectBoxUI(ns("sb"))
    })
-   selectBoxChoice <- list("stack", "group")
-   
-   callModule(selectBox, "sb", selectBoxChoice)
+   output$renderPage <- renderUI({
+     profilePageUI(ns("renderprofile"))
+   })
+   callModule(profilePage, "renderprofile")
  }
 
 

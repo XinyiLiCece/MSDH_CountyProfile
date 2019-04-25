@@ -75,6 +75,7 @@ pcPage<- function(input, output, session, sectionName) {
 
   output$sidenav <- renderUI({
     tags$div(class = "profilePage-sidenav",
+             id = "draggable-object",
              tags$a(href=navLink("CP"), navLabel(filename1)),
              tags$a(href=navLink("PBG"), navLabel(filename2)),
              tags$a(href=navLink("PBR"), navLabel(filename3)),

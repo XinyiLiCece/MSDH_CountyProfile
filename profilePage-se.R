@@ -1,15 +1,19 @@
 sePageUI <- function(id) {
   ns <- NS(id)
-  tags$div(class = "scPage"
-  #          tags$div(class = "sc-Page-graph-container",
+  tags$div(class = "scPage",
+           tags$div(class = "sc-Page-graph-container",
+                    textOutput(ns("sidese"))
   #          navBlockUI(ns("try4")),
   #          navBlockUI(ns("try5")),
   #          navBlockUI(ns("try6"))
-           # )
+           )
            )
   }
 
-sePage<- function(input, output, session, sectionName) {
+sePage<- function(input, output, session) {
+  output$sidese <- renderText({
+    "sidese"
+  })
   # dataHouseIncome <- read.csv(file = "MedianHouseIncome.csv", header = TRUE)
   # 
   # dataBelowPoverty <- read.csv(file = "PopulationBelowPovertyLevel.csv", header = TRUE)
