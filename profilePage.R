@@ -6,7 +6,8 @@ profilePageUI <- function(id, inputText) {
     #          htmlOutput(ns("headerUI"))),
     tags$div(class = "tabPanel-profilePage",
              tags$div(class = "county-intro",
-                      textOutput(ns("countyName"))),
+                      textOutput(ns("countyName")),
+                      searchBoxUI(ns("sb"))),
              tabsetPanel(type = "tabs",
                          # submenuUI(ns("pc")),
                          tabPanel("Population Characteristics",pcPageUI(ns("tryPcPage"))),
@@ -61,6 +62,20 @@ profilePage <- function(input, output, session) {
   })
   callModule(pcPage, "tryPcPage")
 
+  data <- read.csv(file = "CountyNameinMS.csv", header = TRUE)
+  
+  countyNameData <- as.list(data[["County"]])
+  
+  selectedCounty <- callModule(searchBox, "sb", countyNameData, "")
+  
+  selected <- reactiveValues(
+    name = NULL
+  )
+  
+  observe({
+    selected$name <- selectedCounty$countyName
+  })
+  
   # callModule(submenu, "pc")
   
   output$y <- renderText({

@@ -1,9 +1,6 @@
 profileSearchUI <- function(id, inputText) {
   ns <- NS(id)
   tags$div(class = "tabPanel-profileSearch",
-           # actionButton(ns("tryRouter"), "Try"
-           # ),
-           # router_ui(),
            tags$div(class = "search-container",
                     tags$p("Choose County"),
                     searchBoxUI(ns("Box")),
@@ -33,7 +30,8 @@ profileSearch <- function(input, output, session) {
     selected$name <- selectedCounty$countyName
   })
   
-
+  
+  renderText
   # 
   # observeEvent(sB(), {
   #   output$renderPage <- renderUI({
