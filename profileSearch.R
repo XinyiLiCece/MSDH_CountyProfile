@@ -3,7 +3,8 @@
 #   div(
 #     titlePanel(title),
 #     p(content),
-#     uiOutput("power_of_input")
+#     uiOutput("power_of_input"),
+#     actionButton("tryHome","home")
 #   )
 # }
 # sidepage <- function(title) {
@@ -21,6 +22,9 @@
 #     HTML(paste(
 #       "I display <strong>square</strong> of input and pass result to <code>output$power_of_input</code>: "))
 #   })
+#   observeEvent(input$tryHome, {
+#     change_page("side")
+#   })
 # }
 # 
 # side_server <- function(input, output, session) {
@@ -37,72 +41,72 @@
 #    route("side", side_page, side_server)
 #  )
 #  
-
- 
-profileSearchUI <- function(id, inputText) {
-  ns <- NS(id)
-  tags$div(class = "tabPanel-profileSearch",
-           # tryUI(ns("tyh")),
-           actionButton(ns("tryRouter"), "Try"
-                        ),
-           # router_ui(),
-           tags$div(class = "search-container",
-             searchBoxUI(ns("Box")),
-             # # htmlOutput(ns("searchMap")),
-             actionButton(ns("searchBtn"), "Go")
-           ),
-           htmlOutput(ns("renderPage")),
-           router_ui()
-  )
-}
-
-
-profileSearch <- function(input, output, session) {
-  # callModule(try, "tyh")
-  ns <- session$ns
-  
-  
-  
-  # router(input, output, session)
-  
-  data <- read.csv(file = "CountyNameinMS.csv", header = TRUE)
-  
-  countyNameData <- as.list(data[["County"]])
-  
-  selectedCounty <- callModule(searchBox, "Box", countyNameData)
-  
-  selected <- reactiveValues(
-    name = NULL
-  )
-  
-  observe({
-    selected$name <- selectedCounty$countyName
-  })
-  
-  # sB <- reactive({
-  #   return(input$searchBtn)
-  # })
-
-  sB <- reactive({
-    return(input$searchBtn)
-  })
-  # 
-  observeEvent(input$tryRouter, {
-    change_page("side")
-  })
-
-  # observeEvent(sB(), {
-  #   output$renderPage <- renderUI({
-  #     profilePageUI(ns("renderprofile"))
-  #   })
-  #   callModule(profilePage, "renderprofile", selected$name)
-  # })
-  # 
-  observeEvent(sB(), {
-    output$renderPage <- renderUI({
-      profilePageUI(ns("renderprofile"))
-    })
-    callModule(profilePage, "renderprofile")
-  })
-  
-}
+# 
+#  
+# profileSearchUI <- function(id, inputText) {
+#   ns <- NS(id)
+#   tags$div(class = "tabPanel-profileSearch",
+#            # tryUI(ns("tyh")),
+#            actionButton(ns("tryRouter"), "Try"
+#                         ),
+#            # router_ui(),
+#            tags$div(class = "search-container",
+#              searchBoxUI(ns("Box")),
+#              # # htmlOutput(ns("searchMap")),
+#              actionButton(ns("searchBtn"), "Go")
+#            ),
+#            htmlOutput(ns("renderPage")),
+#            router_ui()
+#   )
+# }
+# 
+# 
+# profileSearch <- function(input, output, session) {
+#   # callModule(try, "tyh")
+#   ns <- session$ns
+#   
+#   
+#   
+#   # router(input, output, session)
+#   
+#   data <- read.csv(file = "CountyNameinMS.csv", header = TRUE)
+#   
+#   countyNameData <- as.list(data[["County"]])
+#   
+#   selectedCounty <- callModule(searchBox, "Box", countyNameData)
+#   
+#   selected <- reactiveValues(
+#     name = NULL
+#   )
+#   
+#   observe({
+#     selected$name <- selectedCounty$countyName
+#   })
+#   
+#   # sB <- reactive({
+#   #   return(input$searchBtn)
+#   # })
+# 
+#   sB <- reactive({
+#     return(input$searchBtn)
+#   })
+#   # 
+#   observeEvent(input$tryRouter, {
+#     change_page("side")
+#   })
+# 
+#   # observeEvent(sB(), {
+#   #   output$renderPage <- renderUI({
+#   #     profilePageUI(ns("renderprofile"))
+#   #   })
+#   #   callModule(profilePage, "renderprofile", selected$name)
+#   # })
+#   # 
+#   observeEvent(sB(), {
+#     output$renderPage <- renderUI({
+#       profilePageUI(ns("renderprofile"))
+#     })
+#     callModule(profilePage, "renderprofile")
+#   })
+#   
+# }
