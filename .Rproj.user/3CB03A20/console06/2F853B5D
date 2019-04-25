@@ -414,4 +414,78 @@ Total 18 (delta 9), reused 0 (delta 0)[0K
 $[0K[3G[?25h[0m[0K]0;:/c/Users/Xinyi.Li/Documents/4_17/re(1)[?25l
 [0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
 [?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add .[0K[?25h[?25l
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/3CB03A20/pcs/files-pane.pper.[0K[?25l
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/3CB03A20/pcs/source-pane.pper.[0K[?25l
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/3CB03A20/pcs/windowlayoutstate.pper.[0K[?25l
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/3CB03A20/sources/prop/1B733BDF.[0K[?25l
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/3CB03A20/sources/prop/8CAF9005.[0K[?25l
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/3CB03A20/sources/prop/9B71B8C2.[0K[?25l
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/paths.[0K[?25l
+The file will have its original line endings in your working directory[0K
+[0K[?25h[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0m[0K[?25h[0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K[?25l
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25hm[0K[17G[?25l$ git commit -m '[0K[?25h'[0K[18G[?25l$ git commit -m 'j'[0K[19G[?25h[?25l$ git commit -m 'ju'[0K[20G[?25h[?25l$ git commit -m 'jum'[0K[21G[?25h[?25l$ git commit -m 'jump'[0K[22G[?25h[?25l$ git commit -m 'jump '[0K[23G[?25h[?25l$ git commit -m 'jump'[0K[22G[?25h[?25l$ git commit -m 'jum'[0K[21G[?25h[?25l$ git commit -m 'ju'[0K[20G[?25h[?25l$ git commit -m 'j'[0K[19G[?25h[?25l$ git commit -m ''[0K[18G[?25h[?25l$ git commit -m 'h'[0K[19G[?25h[?25l$ git commit -m 'ho'[0K[20G[?25h[?25l$ git commit -m 'hom'[0K[21G[?25h[?25l$ git commit -m 'home'[0K[22G[?25h[?25l$ git commit -m 'home '[0K[23G[?25h[?25l$ git commit -m 'home p'[0K[24G[?25h[?25l$ git commit -m 'home pa'[0K[25G[?25h[?25l$ git commit -m 'home pag'[0K[26G[?25h[?25l$ git commit -m 'home page'[0K[27G[?25h[?25l$ git commit -m 'home page '[0K[28G[?25h[?25l$ git commit -m 'home page j'[0K[29G[?25h[?25l$ git commit -m 'home page ju'[0K[30G[?25h[?25l$ git commit -m 'home page jum'[0K[31G[?25h[?25l$ git commit -m 'home page jump'[0K[32G[?25h[?25l$ git commit -m 'home page jump '[0K[33G[?25h[?25l$ git commit -m 'home page jump t'[0K[34G[?25h[?25l$ git commit -m 'home page jump to'[0K[35G[?25h[?25l$ git commit -m 'home page jump to '[0K[36G[?25h[?25l$ git commit -m 'home page jump to s'[0K[37G[?25h[?25l$ git commit -m 'home page jump to si'[0K[38G[?25h[?25l$ git commit -m 'home page jump to sid'[0K[39G[?25h[?25l$ git commit -m 'home page jump to side'[0K[40G[?25h[?25l$ git commit -m 'home page jump to side '[0K[41G[?25h[?25l$ git commit -m 'home page jump to side p'[0K[42G[?25h[?25l$ git commit -m 'home page jump to side pa'[0K[43G[?25h[?25l$ git commit -m 'home page jump to side pag'[0K[44G[?25h[?25l$ git commit -m 'home page jump to side page'[0K[45G[?25h[?25l$ git commit -m 'home page jump to side page,'[0K[46G[?25h[?25l$ git commit -m 'home page jump to side page, '[0K[47G[?25h[?25l$ git commit -m 'home page jump to side page, m'[0K[48G[?25h[?25l$ git commit -m 'home page jump to side page, mo'[0K[49G[?25h[?25l$ git commit -m 'home page jump to side page, mov'[0K[50G[?25h[?25l$ git commit -m 'home page jump to side page, move'[0K[51G[?25h[?25l$ git commit -m 'home page jump to side page, move '[0K[52G[?25h[?25l$ git commit -m 'home page jump to side page, move s'[0K[53G[?25h[?25l$ git commit -m 'home page jump to side page, move se'[0K[54G[?25h[?25l$ git commit -m 'home page jump to side page, move sea'[0K[55G[?25h[?25l$ git commit -m 'home page jump to side page, move sear'[0K[56G[?25h[?25l$ git commit -m 'home page jump to side page, move searc'[0K[57G[?25h[?25l$ git commit -m 'home page jump to side page, move search'[0K[58G[?25h[?25l$ git commit -m 'home page jump to side page, move search '[0K[59G[?25h[?25l$ git commit -m 'home page jump to side page, move search b'[0K[60G[?25h[?25l$ git commit -m 'home page jump to side page, move search '[0K[59G[?25h[?25l$ git commit -m 'home page jump to side page, move search'[0K[58G[?25h[?25l$ git commit -m 'home page jump to side page, move search '[0K[59G[?25h[?25l$ git commit -m 'home page jump to side page, move search b'[0K[60G[?25h[?25l$ git commit -m 'home page jump to side page, move search bo'[0K[61G[?25h[?25l$ git commit -m 'home page jump to side page, move search box'[0K[62G[?25h[?25l$ git commit -m 'home page jump to side page, move search box '[0K[63G[?25h[?25l$ git commit -m 'home page jump to side page, move search box i'[0K[64G[?25h[?25l$ git commit -m 'home page jump to side page, move search box in'[0K[65G[?25h[?25l$ git commit -m 'home page jump to side page, move search box int'[0K[66G[?25h[?25l$ git commit -m 'home page jump to side page, move search box into'[0K[67G[?25h[?25l$ git commit -m 'home page jump to side page, move search box into '[0K[68G[?25h[?25l$ git commit -m 'home page jump to side page, move search box into h'[0K[69G[?25h[?25l$ git commit -m 'home page jump to side page, move search box into ho'[0K[70G[?25h[?25l$ git commit -m 'home page jump to side page, move search box into home'[0K[72G[?25h[?25l$ git commit -m 'home page jump to side page, move search box into home '[0K[73G[?25h[?25l$ git commit -m 'home page jump to side page, move search box into home p'[0K[74G[?25h[?25l$ git commit -m 'home page jump to side page, move search box into home pa'[0K[75G[?25h[?25l$ git commit -m 'home page jump to side page, move search box into home pag'[0K[76G[?25h[?25l$ git commit -m 'home page jump to side page, move search box into home page'[0K[77G[?25h[?25l$ git commit -m 'home page jump to side page, move search box into home page,'[0K[78G[?25h[?25l$ git commit -m 'home page jump to side page, move search box into home page, '[0K[79G[?25h[?25l$ git commit -m 'home page jump to side page, move search box into home page,'[0K[78G[?25h[?25l$ git commit -m 'home page jump to side page, move search box into home page'[0K[77G[?25h[76G[75G[74G[73G[72G[71G[70G[69G[68G[67G[66G[65G[64G[63G[62G[61G[60G[59G[58G[57G[56G[55G[54G[53G[52G[51G[50G[49G[48G[47G[46G[45G[44G[45G[46G[?25l$ git commit -m 'home page jump to side page,c move search box into home page'[0K[47G[?25h[?25l$ git commit -m 'home page jump to side page,cr move search box into home page'[0K[48G[?25h[?25l$ git commit -m 'home page jump to side page,cre move search box into home page'[0K[49G[?25h[?25l$ git commit -m 'home page jump to side page,crea move search box into home page'[0K[50G[?25h[?25l$ git commit -m 'home page jump to side page,creat move search box into home page'[0K[51G[?25h[?25l$ git commit -m 'home page jump to side page,create move search box into home page'[0K[52G[?25h[?25l$ git commit -m 'home page jump to side page,create  move search box into home page'[0K[53G[?25h[?25l$ git commit -m 'home page jump to side page,create n move search box into home page'[0K[54G[?25h[?25l$ git commit -m 'home page jump to side page,create ne move search box into home page'[0K[55G[?25h[?25l$ git commit -m 'home page jump to side page,create new move search box into home page'[0K[56G[?25h[?25l$ git commit -m 'home page jump to side page,create new  move search box into home page'[0K[57G[?25h[?25l$ git commit -m 'home page jump to side page,create new U move search box into home page[0K
+'[0K[1A[58G[?25h[?25l$ git commit -m 'home page jump to side page,create new UI move search box into home pag[0K
+e'[0K[1A[59G[?25h[?25l$ git commit -m 'home page jump to side page,create new UI  move search box into home pa[0K
+ge'[0K[1A[60G[?25h[?25l$ git commit -m 'home page jump to side page,create new UI c move search box into home p[0K
+age'[0K[1A[61G[?25h[?25l$ git commit -m 'home page jump to side page,create new UI co move search box into home[0K
+page'[0K[1A[62G[?25h[?25l$ git commit -m 'home page jump to side page,create new UI coui move search box into hom[0K
+e page'[0K[1A[64G[?25h[?25l$ git commit -m 'home page jump to side page,create new UI couin move search box into ho[0K
+me page'[0K[1A[65G[?25h[?25l$ git commit -m 'home page jump to side page,create new UI coui move search box into hom[0K
+e page'[0K[1A[64G[?25h[?25l$ git commit -m 'home page jump to side page,create new UI cou move search box into home[0K
+ page'[0K[1A[63G[?25h[?25l$ git commit -m 'home page jump to side page,create new UI cout move search box into hom[0K
+e page'[0K[1A[64G[?25h[?25l$ git commit -m 'home page jump to side page,create new UI couty move search box into ho[0K
+me page'[0K[1A[65G[?25h[?25l$ git commit -m 'home page jump to side page,create new UI coutyP move search box into h[0K
+ome page'[0K[1A[66G[?25h[?25l$ git commit -m 'home page jump to side page,create new UI coutyPr move search box into[0K
+home page'[0K[1A[67G[?25h[?25l$ git commit -m 'home page jump to side page,create new UI coutyPro move search box into[0K
+ home page'[0K[1A[68G[?25h[?25l$ git commit -m 'home page jump to side page,create new UI coutyProf move search box int[0K
+o home page'[0K[1A[69G[?25h[?25l$ git commit -m 'home page jump to side page,create new UI coutyProfi move search box in[0K
+to home page'[0K[1A[70G[?25h[?25l$ git commit -m 'home page jump to side page,create new UI coutyProfil move search box i[0K
+nto home page'[0K[1A[71G[?25h[?25l$ git commit -m 'home page jump to side page,create new UI coutyProfile move search box[0K
+into home page'[0K[1A[72G[?25h[?25l$ git commit -m 'home page jump to side page,create new UI coutyProfile, move search box[0K
+ into home page'[0K[1A[73G[?25h[?25l$ git commit -m 'home page jump to side page,create new UI coutyProfile,  move search bo[0K
+x into home page'[0K[1A[74G[?25h[75G[76G[77G[78G[79G[80G[81G[82G[83G[84G[85G[86G[87G[88G[?25l
+[?25h[2G[3G[4G[5G[6G[7G[8G[9G[10G[11G[12G[13G[14G[15G[16G[17G[18G[17G[?25lx into home page,'[0K[18G[?25h[?25lx into home page, '[0K[19G[?25h[?25lx into home page, r'[0K[20G[?25h[?25lx into home page, re'[0K[21G[?25h[?25lx into home page, r'[0K[20G[?25h[?25lx into home page, '[0K[19G[?25h[?25lx into home page, r'[0K[20G[?25h[?25lx into home page, ro'[0K[21G[?25h[?25lx into home page, rou'[0K[22G[?25h[?25lx into home page, rout'[0K[23G[?25h[?25lx into home page, route'[0K[24G[?25h[?25lx into home page, router'[0K[25G[?25h[?25lx into home page, routerU'[0K[26G[?25h[?25lx into home page, routerUI'[0K[27G[?25h[?25lx into home page, routerUI '[0K[28G[?25h[27G[26G[25G[24G[23G[22G[21G[20G[19G[18G[?25lx into home page,m routerUI '[0K[19G[?25h[?25lx into home page,mo routerUI '[0K[20G[?25h[?25lx into home page,mov routerUI '[0K[21G[?25h[?25lx into home page,move routerUI '[0K[22G[?25h[?25lx into home page,move  routerUI '[0K[23G[?25h[24G[25G[26G[27G[28G[29G[28G[27G[26G[25G[24G[?25lx into home page,move  =routerUI '[0K[25G[?25h[?25lx into home page,move  routerUI '[0K[24G[?25h[?25lx into home page,move routerUI '[0K[23G[?25h[24G[25G[26G[27G[28G[29G[30G[31G[32G[33G[32G[?25lx into home page,move routerUI i'[0K[33G[?25h[?25lx into home page,move routerUI in'[0K[34G[?25h[?25lx into home page,move routerUI int'[0K[35G[?25h[?25lx into home page,move routerUI into'[0K[36G[?25h[?25lx into home page,move routerUI into '[0K[37G[?25h[?25lx into home page,move routerUI into c'[0K[38G[?25h[?25lx into home page,move routerUI into co'[0K[39G[?25h[?25lx into home page,move routerUI into cou'[0K[40G[?25h[?25lx into home page,move routerUI into coun'[0K[41G[?25h[?25lx into home page,move routerUI into count'[0K[42G[?25h[?25lx into home page,move routerUI into county'[0K[43G[?25h[?25lx into home page,move routerUI into countyP'[0K[44G[?25h[?25lx into home page,move routerUI into countyPr'[0K[45G[?25h[?25lx into home page,move routerUI into countyPro'[0K[46G[?25h[?25lx into home page,move routerUI into countyProf'[0K[47G[?25h[?25lx into home page,move routerUI into countyProfi'[0K[48G[?25h[?25lx into home page,move routerUI into countyProfil'[0K[49G[?25h[?25lx into home page,move routerUI into countyProfile'[0K[50G[?25h[?25l
+[0K[?25h[master 96d95b5] home page jump to side page,create new UI coutyProfile,  move search bo[0Kx[?25l
+ into home page,move routerUI into countyProfile[0K
+ Committer: Li <Xinyi.Li@msdh.ms.gov>[0K
+Your name and email address were configured automatically based[0K
+on your username and hostname. Please check that they are accurate.[0K
+You can suppress this message by setting them explicitly. Run the[0K
+following command and follow the instructions in your editor to edit[0K
+your configuration file:[0K
+[0K
+    git config --global --edit[0K
+[0K
+After doing this, you may fix the identity used for this commit with:[0K
+[0K
+    git commit --amend --reset-author[0K
+[0K
+ 14 files changed, 341 insertions(+), 133 deletions(-)[0K
+ rewrite .RData (98%)[0K
+ rewrite .Rproj.user/3CB03A20/console06/INDEX001 (100%)[0K
+ rewrite profileSearch.R (60%)[0K
+[0K[?25h[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[?25l
+[0K[?25hEnumerating objects: 47, done.[0K[?25l
+Counting objects: 100% (47/47), done.[0K
+Delta compression using up to 8 threads[0K
+Compressing objects: 100% (21/21), done.[0K
+Writing objects: 100% (24/24), 11.90 KiB | 3.97 MiB/s, done.[0K
+Total 24 (delta 12), reused 0 (delta 0)[0K
+[0K[?25hremote: Resolving deltas:   0% (0/12)[0K[41G[?25lremote: Resolving deltas: 100% (12/12), completed with 11 local objects.[0K
+[0K[?25hTo https://github.com/XinyiLiCece/MSDH_CountyProfile.git[0K[?25l
+   11e1abe..96d95b5  master -> master[0K
+[0K[?25h[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
+$[0K[3G[?25h[0m[0K]0;:/c/Users/Xinyi.Li/Documents/4_17/re(1)[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
+[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add .[0K[?25h[?25l
 [0K[?25h
