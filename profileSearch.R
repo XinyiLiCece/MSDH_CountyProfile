@@ -9,7 +9,7 @@ homepage <- function(title, content) {
 sidepage <- function(title) {
   div(
     titlePanel(title),
-    uiOutput("tryOut")
+    htmlOutput("renderPage")
   )
 }
 # Part of both sample pages.
@@ -26,10 +26,10 @@ home_server <- function(input, output, session) {
 side_server <- function(input, output, session) {
   ns <- session$ns
   session$userData$cn <- "check userDate"
-  output$tryOut <- renderUI({
-    tryUI(ns("hf"))
+  output$renderPage <- renderUI({
+    profilePageUI(ns("renderprofile"))
   })
-  callModule(try, "hf")
+  callModule(profilePage, "renderprofile")
 }
 
  router <- make_router(
