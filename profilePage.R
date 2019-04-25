@@ -5,6 +5,8 @@ profilePageUI <- function(id, inputText) {
     # tags$div(class = "profilePage-header",
     #          htmlOutput(ns("headerUI"))),
     tags$div(class = "tabPanel-profilePage",
+             tags$div(class = "county-intro",
+                      textOutput(ns("countyName"))),
              tabsetPanel(type = "tabs",
                          # submenuUI(ns("pc")),
                          tabPanel("Population Characteristics",pcPageUI(ns("tryPcPage"))),
@@ -52,9 +54,13 @@ profilePageUI <- function(id, inputText) {
 
 
 profilePage <- function(input, output, session) {
-
-  callModule(pcPage, "tryPcPage")
+  ns <- session$ns
   
+  output$countyName <- renderText({
+    session$userData$cn
+  })
+  callModule(pcPage, "tryPcPage")
+
   # callModule(submenu, "pc")
   
   output$y <- renderText({

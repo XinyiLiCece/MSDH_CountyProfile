@@ -248,16 +248,32 @@
 /*Searchbox*/
 .tabPanel-profileSearch .search-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  padding: 3rem 0;
+  padding: 10rem;
+}
+
+.tabPanel-profileSearch .search-container p{
+  margin-bottom: 2rem;
+  font-size:3.5rem;
+}
+
+.tabPanel-profileSearch .profile-searchBox {
+  margin-bottom: 0.8rem;
 }
 
 .tabPanel-profileSearch .form-group {
   display: flex;
   align-items: flex-start !important;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 0px;
   margin-right: 2rem;
+}
+
+.tabPanel-profileSearch .searchBox-btn {
+  margin-top: 1rem;
+  width: 6rem;
+  background-color: rgb(94,94,94,0.3);
 }
 
 .tabPanel-profileSearch .search-searchBtn {
