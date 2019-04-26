@@ -12,6 +12,7 @@ aboutPageUI <- function(id) {
 
 aboutPage <- function(input, output, session) {
   #callModule(msdhIntro, "intro")
+  print("Before 1")
   output$msdhIntro <- renderUI({
     div(class = "msdhIntro",
         checked = NA,
@@ -32,4 +33,5 @@ aboutPage <- function(input, output, session) {
            )
           ))
   })
+  print("Before 2")
   }

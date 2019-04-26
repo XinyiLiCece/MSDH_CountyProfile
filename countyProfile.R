@@ -1,5 +1,5 @@
 # This creates UI for each page.
-homepage <- function(title, content) {
+homepage <- function(title) {
   div(
     htmlOutput("search")
   )
@@ -10,7 +10,7 @@ sidepage <- function(title) {
   )
 }
 # Part of both sample pages.
-home_page <- homepage("Home page", "This is the home page!")
+home_page <- homepage("Home page")
 side_page <- sidepage("Side page")
 
 home_server <- function(input, output, session) {
