@@ -6,8 +6,9 @@ profilePageUI <- function(id, inputText) {
     #          htmlOutput(ns("headerUI"))),
     tags$div(class = "tabPanel-profilePage",
              tags$div(class = "county-intro",
-                      textOutput(ns("countyName")),
-                      searchBoxUI(ns("sb"))),
+                      textOutput(ns("countyName"))
+             #          searchBoxUI(ns("sb"))
+             ),
              tabsetPanel(type = "tabs",
                          # submenuUI(ns("pc")),
                          tabPanel("Population Characteristics",pcPageUI(ns("tryPcPage"))),
@@ -20,64 +21,15 @@ profilePageUI <- function(id, inputText) {
     )
   )
 }
-# 
-# 
-# profilePage <- function(input, output, session, countyName) {
-#   output$headerUI <- renderUI({
-#     countyName
-#   })
-#   
-#   callModule(pcPage, "tryPcPage")
-#   
-#   # callModule(submenu, "pc")
-# 
-#   output$y <- renderText({
-#     "y"
-#   })
-#   output$z <- renderText({
-#     "z"
-#   })
-#   output$z1 <- renderText({
-#     "z1"
-#   })
-#   output$z2 <- renderText({
-#     "z2"
-#   })
-#   output$a <- renderText({
-#     "a"
-#   })
-#   output$b <- renderText({
-#     "bcd"
-#   })
-# }
-# 
 
-
-
-profilePage <- function(input, output, session) {
+profilePage <- function(input, output, session, countyname) {
   ns <- session$ns
   
   output$countyName <- renderText({
-    session$userData$cn
+    countyname
   })
   callModule(pcPage, "tryPcPage")
 
-  data <- read.csv(file = "CountyNameinMS.csv", header = TRUE)
-  
-  countyNameData <- as.list(data[["County"]])
-  
-  selectedCounty <- callModule(searchBox, "sb", countyNameData, "")
-  
-  selected <- reactiveValues(
-    name = NULL
-  )
-  
-  observe({
-    selected$name <- selectedCounty$countyName
-  })
-  
-  # callModule(submenu, "pc")
-  
   output$y <- renderText({
     "y"
   })

@@ -25,9 +25,9 @@ side_server <- function(input, output, session) {
   ns <- session$ns
   # session$userData$cn <- "check userDate"
   output$renderPage <- renderUI({
-    profilePageUI(ns("renderprofile"))
+    profilePageContainerUI(ns("renderprofile"))
   })
-  callModule(profilePage, "renderprofile")
+  callModule(profilePageContainer, "renderprofile")
 }
 
 router <- make_router(

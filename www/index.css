@@ -153,11 +153,32 @@
 }
 
 /*profile-page county title*/
+/*
 #search-renderprofile-headerUI {
   font-size: 3rem;
   padding: 1rem 3rem;
 }
+*/
 
+/*profile-page update-search section*/
+.tabPanel-profileSearch .update-search {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+.tabPanel-profileSearch .update-search .profile-searchBox {
+  margin: 0rem;
+}
+
+.tabPanel-profileSearch .update-search .profile-searchBox .form-group {
+  justify-content: start;
+  width: 100%;
+}
+
+.tabPanel-profileSearch .update-search .searchBox-btn {
+  width: 13rem;
+  margin: 0rem;
+}
 
 /*profile-page sidenav*/
 .profilePage-sidenav {

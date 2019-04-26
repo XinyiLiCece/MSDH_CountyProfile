@@ -15,7 +15,8 @@ pcPageUI <- function(id) {
 
 pcPage<- function(input, output, session, sectionName) {
   dataCountyPopulation <- read.csv(file = "CountyPopulation.csv", header = TRUE)
-
+  # print("pcPage")
+  # print(dataCountyPopulation)
   dataPopulationByGender <- read.csv(file = "PopulationByGender.csv", header =TRUE)
   
   dataPopulationByRace <- read.csv(file = "PopulationByRace.csv", header = TRUE)
@@ -25,7 +26,8 @@ pcPage<- function(input, output, session, sectionName) {
   dataBelowPoverty <- read.csv(file = "PopulationBelowPovertyLevel.csv", header = TRUE)
   
   dataUnemployed <- read.csv(file = "PopulationUnemployed.csv", header = TRUE)
-  
+  print("file")
+  print(dataUnemployed)
   filename1 <- "CountyPopulation"
   
   filename2 <- "PopulationByGender"

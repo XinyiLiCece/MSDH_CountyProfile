@@ -7,8 +7,7 @@ profileSearchUI <- function(id, inputText) {
                     # # htmlOutput(ns("searchMap")),
                     actionButton(class = "searchBox-btn", 
                                  ns("searchBtn"), "Go")
-           ),
-           htmlOutput(ns("renderPage"))
+           )
   )
 }
 
@@ -30,8 +29,6 @@ profileSearch <- function(input, output, session) {
     selected$name <- selectedCounty$countyName
   })
   
-  
-  renderText
   # 
   # observeEvent(sB(), {
   #   output$renderPage <- renderUI({
