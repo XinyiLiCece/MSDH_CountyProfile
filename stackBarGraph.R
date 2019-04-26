@@ -49,7 +49,7 @@ stackBarGraph <- function(input, output, session, dataTB, filename, labelx, chec
     )
 
     p <- plot_ly(dataTB, x = as.character(dataTB[[labelx]])) %>%
-      layout(xaxis = x, yaxis = y, width = '50%', height = '50%', barmode = graph$mode)
+      layout(xaxis = x, yaxis = y, width = '100%', height = '100%', barmode = graph$mode)
     p
     for (cn in checked$name) {
       p <- add_trace(p, y = dataTB[[cn]],

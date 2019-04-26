@@ -125,7 +125,7 @@
 .tabPanel-profilePage > .tabbable {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 70%;
   height: 0.1rem;
 }
 
@@ -292,9 +292,10 @@
 /*control panel*/
 .control-panel {
   width: 100%;
-  padding: 3rem 0 0 0rem;
-  margin: 0 0 0 6rem;
+  padding: 3rem 3rem;
+  margin: 0 0 0 4rem;
   background-color: white;
+  font-size: 1.2rem;
 }
 .control-panel .form-group{
     display: flex;
