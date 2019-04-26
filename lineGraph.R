@@ -83,7 +83,7 @@ lineGraph <- function(input, output, session, dataTB, filename) {
     )
     
     p <- plot_ly(dataTB, x = ~year) %>%
-      layout(xaxis = x, yaxis = y, x = 1, y = 1, width = '100%', height = '100%')
+      layout(xaxis = x, yaxis = y, x = 1, y = 1, width = 520, height = 500)
     p
     for (cn in checked$name) {
       p <- add_lines(p, y = dataTB[[cn]],

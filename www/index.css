@@ -16,6 +16,11 @@
     color: #006699;
 }
 
+.page-router button {
+  border: none;
+  background-color: transparent
+}
+
 .page-router {
   float: right;
   display: flex;
@@ -130,7 +135,7 @@
 }
 
 .tabPanel-profilePage > .tabbable > .tab-content {
-  width: 110rem;
+  width: 100%;
   height: 0.1rem;
   margin-top: -5rem;
   z-index: -1;
@@ -163,7 +168,7 @@
 
 .tabPanel-profilePage .tabPanel-plotBlock .nav-tabs {
   width: 15rem;
-  margin-top: 8rem;
+  margin-top: 14rem;
 }
 
 .tabPanel-profilePage .tabPanel-plotBlock .tab-content {
@@ -210,8 +215,12 @@
 
 /*profile-page county-intro*/ 
 .county-intro {
-  padding: 1rem 2rem 2rem;
-  font-size: 1.6rem;
+  padding: 1rem 2rem 3rem;
+  font-size: 1.4rem;
+  font-family:initial;
+  border: solid;
+  border-width:0px 0px 0.1px 0px;
+  border-color: #EFF6EE;
 }
 
 .county-intro div:first-child{
@@ -224,9 +233,9 @@
   position: fixed;
   display: flex;
   flex-direction: column;
-  top: 30rem;
-  right: 3rem;
-  width: 20rem;
+  top: 28rem;
+  right: 1rem;
+  width: 18rem;
   background-color: #F8F9FA;
 }
 
@@ -253,10 +262,10 @@
 
 /*toggleBlock*/
 .dashboard-block {
-  width: 100%;
+  width: 95%;
   height: 80rem;
   margin: 6rem;
-  padding: 6rem;
+  padding: 2rem 6rem;
   background-color: #F8F9FA;
   display: flex;
   flex-direction: column;
@@ -292,8 +301,8 @@
 /*control panel*/
 .control-panel {
   width: 100%;
-  padding: 3rem 3rem;
-  margin: 0 0 0 4rem;
+  padding: 3rem 2rem;
+  margin: 0 0 0 3rem;
   background-color: white;
   font-size: 1.2rem;
 }

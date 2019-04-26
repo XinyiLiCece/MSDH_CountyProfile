@@ -7,7 +7,7 @@ navBlockUI <- function(id) {
       class = "data-source",
       htmlOutput(ns("sourceInfo"))
     ),
-    downloadButton(ns('downloadData'), 'Download Date'),
+    downloadButton(ns('downloadData'), 'Download Data'),
     id = id
   )
 }

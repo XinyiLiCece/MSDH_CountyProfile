@@ -1,0 +1,12 @@
+name: MSDH_CountyProfile
+title: MSDH_CountyProfile
+username:
+account: msdh-county-health-profile
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 893638
+bundleId: 2042247
+url: https://msdh-county-health-profile.shinyapps.io/MSDH_CountyProfile/
+when: 1556313723.92373
+asMultiple: FALSE
+asStatic: FALSE

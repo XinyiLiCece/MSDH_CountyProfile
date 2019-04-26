@@ -26,7 +26,7 @@ profilePageUI <- function(id, inputText) {
 profilePage <- function(input, output, session, countyname) {
   ns <- session$ns
   
-  countyDescriptions <- read.csv(file = "countyDescription.csv", header = TRUE)
+  countyDescriptions <- read.csv(file = "CountyDescription.csv", header = TRUE)
 
   
   countyNum <- which(countyDescriptions$CountyName == countyname)
