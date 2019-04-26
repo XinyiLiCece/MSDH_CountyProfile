@@ -5,7 +5,7 @@ searchBoxUI <- function(id) {
   )
 }
 
-searchBox <- function(input, output, session, data, label) {
+searchBox <- function(input, output, session, data, label, selectedCounty) {
   ns <- session$ns
   
   countyNameList <- as.list(data[["County"]])
@@ -15,7 +15,7 @@ searchBox <- function(input, output, session, data, label) {
                          label,
                          data,
                          multiple=FALSE, 
-                         # selected = NULL, 
+                         selected = selectedCounty,
                          selectize=FALSE)
   })
 

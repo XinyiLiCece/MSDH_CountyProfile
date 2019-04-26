@@ -22,7 +22,7 @@ profileSearch <- function(input, output, session) {
   
   countyNameData <- as.list(data[["County"]])
   
-  selectedCounty <- callModule(searchBox, "Box", countyNameData, "")
+  selectedCounty <- callModule(searchBox, "Box", countyNameData, "", "")
   
   selected <- reactiveValues(
     name = NULL

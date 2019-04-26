@@ -24,7 +24,7 @@ profilePageContainer <- function(input, output, session) {
   
   countyNameData <- as.list(data[["County"]])
   
-  selectedCounty <- callModule(searchBox, "sb", countyNameData, "")
+  selectedCounty <- callModule(searchBox, "sb", countyNameData, "", session$userData$cn)
   
   selected <- reactiveValues(
     name = NULL
