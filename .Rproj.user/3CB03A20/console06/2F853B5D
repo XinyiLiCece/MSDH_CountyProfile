@@ -825,4 +825,45 @@ Total 11 (delta 5), reused 0 (delta 0)[0K
    ab2c561..591aa44  master -> master[0K
 [0K[?25h[?25l
 [0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
-$[0K[3G[?25h[?25l$ i[0K[?25hn[0Ks[0Kt[0Ka[0Kl[0Kl[0K.[0Kp[0Ka[0Kg[0K[?25l$ install.pa[0K[?25hc[0K[?25l$ install.pa[0K[?25h[?25l$ install.p[0K[?25h[?25l$ install.[0K[?25h[?25l$ install[0K[?25h[?25l$ instal[0K[?25h[?25l$ insta[0K[?25hl[0Kl[0K.[0Kp[0Ka[0Kc[0Ka[0Kk[0K[?25l$ install.paca[0K[?25h[?25l$ install.pac[0K[?25h[?25l$ install.pa[0K[?25h[?25l$ install.p[0K[?25h[?25l$ install.[0K[?25h[?25l$ instal[0K[?25h[?25l$ insta[0K[?25h[?25l$ inst[0K[?25h[?25l$ ins[0K[?25h[?25l$ in[0K[?25h[?25l$ i[0K[?25h[?25l$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add .[0K[?25h
+$[0K[3G[?25h[?25l$ i[0K[?25hn[0Ks[0Kt[0Ka[0Kl[0Kl[0K.[0Kp[0Ka[0Kg[0K[?25l$ install.pa[0K[?25hc[0K[?25l$ install.pa[0K[?25h[?25l$ install.p[0K[?25h[?25l$ install.[0K[?25h[?25l$ install[0K[?25h[?25l$ instal[0K[?25h[?25l$ insta[0K[?25hl[0Kl[0K.[0Kp[0Ka[0Kc[0Ka[0Kk[0K[?25l$ install.paca[0K[?25h[?25l$ install.pac[0K[?25h[?25l$ install.pa[0K[?25h[?25l$ install.p[0K[?25h[?25l$ install.[0K[?25h[?25l$ instal[0K[?25h[?25l$ insta[0K[?25h[?25l$ inst[0K[?25h[?25l$ ins[0K[?25h[?25l$ in[0K[?25h[?25l$ i[0K[?25h[?25l$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add .[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/3CB03A20/sources/prop/1B733BDF.[0K[?25l
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/3CB03A20/sources/prop/8CAF9005.[0K[?25l
+The file will have its original line endings in your working directory[0K
+[0K[?25h[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25hm[0K[17G[?25l$ git commit -m '[0K[?25h'[0K[18G[?25l$ git commit -m 'a'[0K[19G[?25h[?25l$ git commit -m 'ad'[0K[20G[?25h[?25l$ git commit -m 'add'[0K[21G[?25h[?25l$ git commit -m 'adde'[0K[22G[?25h[?25l$ git commit -m 'added'[0K[23G[?25h[?25l$ git commit -m 'added '[0K[24G[?25h[?25l$ git commit -m 'added f'[0K[25G[?25h[?25l$ git commit -m 'added fa'[0K[26G[?25h[?25l$ git commit -m 'added fak'[0K[27G[?25h[?25l$ git commit -m 'added fake'[0K[28G[?25h[?25l$ git commit -m 'added fake '[0K[29G[?25h[?25l$ git commit -m 'added fake c'[0K[30G[?25h[?25l$ git commit -m 'added fake co'[0K[31G[?25h[?25l$ git commit -m 'added fake cou'[0K[32G[?25h[?25l$ git commit -m 'added fake coun'[0K[33G[?25h[?25l$ git commit -m 'added fake count'[0K[34G[?25h[?25l$ git commit -m 'added fake county'[0K[35G[?25h[?25l$ git commit -m 'added fake county '[0K[36G[?25h[?25l$ git commit -m 'added fake county m'[0K[37G[?25h[?25l$ git commit -m 'added fake county ma'[0K[38G[?25h[?25l$ git commit -m 'added fake county m'[0K[37G[?25h[?25l$ git commit -m 'added fake county '[0K[36G[?25h[?25l$ git commit -m 'added fake county'[0K[35G[?25h[?25l$ git commit -m 'added fake count'[0K[34G[?25h[?25l$ git commit -m 'added fake coun'[0K[33G[?25h[?25l$ git commit -m 'added fake cou'[0K[32G[?25h[?25l$ git commit -m 'added fake co'[0K[31G[?25h[?25l$ git commit -m 'added fake c'[0K[30G[?25h[?25l$ git commit -m 'added fake '[0K[29G[?25h[?25l$ git commit -m 'added fake s'[0K[30G[?25h[?25l$ git commit -m 'added fake st'[0K[31G[?25h[?25l$ git commit -m 'added fake sta'[0K[32G[?25h[?25l$ git commit -m 'added fake stat'[0K[33G[?25h[?25l$ git commit -m 'added fake state'[0K[34G[?25h[?25l$ git commit -m 'added fake state '[0K[35G[?25h[?25l$ git commit -m 'added fake state a'[0K[36G[?25h[?25l$ git commit -m 'added fake state '[0K[35G[?25h[?25l$ git commit -m 'added fake state m'[0K[36G[?25h[?25l$ git commit -m 'added fake state ma'[0K[37G[?25h[?25l$ git commit -m 'added fake state mao'[0K[38G[?25h[?25l$ git commit -m 'added fake state mao '[0K[39G[?25h[?25l$ git commit -m 'added fake state mao i'[0K[40G[?25h[?25l$ git commit -m 'added fake state mao '[0K[39G[?25h[?25l$ git commit -m 'added fake state mao'[0K[38G[?25h[?25l$ git commit -m 'added fake state ma'[0K[37G[?25h[?25l$ git commit -m 'added fake state map'[0K[38G[?25h[?25l$ git commit -m 'added fake state map '[0K[39G[?25h[?25l$ git commit -m 'added fake state map i'[0K[40G[?25h[?25l$ git commit -m 'added fake state map in'[0K[41G[?25h[?25l$ git commit -m 'added fake state map int'[0K[42G[?25h[?25l$ git commit -m 'added fake state map into'[0K[43G[?25h[?25l$ git commit -m 'added fake state map into '[0K[44G[?25h[?25l$ git commit -m 'added fake state map into s'[0K[45G[?25h[?25l$ git commit -m 'added fake state map into se'[0K[46G[?25h[?25l$ git commit -m 'added fake state map into sea'[0K[47G[?25h[?25l$ git commit -m 'added fake state map into sear'[0K[48G[?25h[?25l$ git commit -m 'added fake state map into searc'[0K[49G[?25h[?25l$ git commit -m 'added fake state map into search'[0K[50G[?25h[?25l$ git commit -m 'added fake state map into search '[0K[51G[?25h[?25l$ git commit -m 'added fake state map into search p'[0K[52G[?25h[?25l$ git commit -m 'added fake state map into search pa'[0K[53G[?25h[?25l$ git commit -m 'added fake state map into search pag'[0K[54G[?25h[?25l$ git commit -m 'added fake state map into search page'[0K[55G[?25h[?25l
+[0K[?25h[master fe5f92a] added fake state map into search page[0K[?25l
+ Committer: Li <Xinyi.Li@msdh.ms.gov>[0K
+Your name and email address were configured automatically based[0K
+on your username and hostname. Please check that they are accurate.[0K
+You can suppress this message by setting them explicitly. Run the[0K
+following command and follow the instructions in your editor to edit[0K
+your configuration file:[0K
+[0K
+    git config --global --edit[0K
+[0K
+After doing this, you may fix the identity used for this commit with:[0K
+[0K
+    git commit --amend --reset-author[0K
+[0K
+ 5 files changed, 81 insertions(+), 100 deletions(-)[0K
+[0K[?25h[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[?25l
+[0K[?25hEnumerating objects: 23, done.[0K[?25l
+Counting objects:  34% (8/23)[0K[1G[?25hCounting objects: 100% (23/23), done.[0K[?25l
+Delta compression using up to 8 threads[0K
+Compressing objects: 100% (11/11), done.[0K
+Writing objects: 100% (12/12), 2.33 KiB | 1.17 MiB/s, done.[0K
+Total 12 (delta 6), reused 0 (delta 0)[0K
+[0K[?25hremote: Resolving deltas: 100% (6/6), completed with 6 local objects.[0K[?25l
+[0K[?25hTo https://github.com/XinyiLiCece/MSDH_CountyProfile.git[0K[?25l
+   591aa44..fe5f92a  master -> master[0K
+[0K[?25h[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l
+[0K[?25h[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
+$[0K[3G[?25h[0m[0K]0;:/c/Users/Xinyi.Li/Documents/4_17/re(1)[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
+[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add .[0K[?25h

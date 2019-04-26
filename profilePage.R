@@ -6,7 +6,8 @@ profilePageUI <- function(id, inputText) {
     #          htmlOutput(ns("headerUI"))),
     tags$div(class = "tabPanel-profilePage",
              tags$div(class = "county-intro",
-                      textOutput(ns("countyName"))
+                      textOutput(ns("countyName")),
+                      textOutput(ns("countyDescrip"))
              #          searchBoxUI(ns("sb"))
              ),
              tabsetPanel(type = "tabs",
@@ -25,9 +26,21 @@ profilePageUI <- function(id, inputText) {
 profilePage <- function(input, output, session, countyname) {
   ns <- session$ns
   
+  countyDescriptions <- read.csv(file = "countyDescription.csv", header = TRUE)
+
+  
+  countyNum <- which(countyDescriptions$CountyName == countyname)
+  
+  countyDes <- countyDescriptions[["CountyDescription"]]
+
   output$countyName <- renderText({
     countyname
   })
+  
+  output$countyDescrip <- renderText({
+    as.character(countyDes[countyNum])
+  })
+  
   callModule(pcPage, "tryPcPage")
 
   output$y <- renderText({

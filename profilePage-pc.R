@@ -26,8 +26,7 @@ pcPage<- function(input, output, session, sectionName) {
   dataBelowPoverty <- read.csv(file = "PopulationBelowPovertyLevel.csv", header = TRUE)
   
   dataUnemployed <- read.csv(file = "PopulationUnemployed.csv", header = TRUE)
-  print("file")
-  print(dataUnemployed)
+
   filename1 <- "CountyPopulation"
   
   filename2 <- "PopulationByGender"
