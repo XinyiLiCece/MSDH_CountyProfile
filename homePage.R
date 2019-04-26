@@ -25,7 +25,14 @@ aboutPage <- function(input, output, session) {
             ),
           tags$p( 
            "As the poorest state in the nation, Mississippi faces greater challenges than many other states to prevent and combat illnesses. At the same time, there have been some significant public health successes: Mississippi is recognized as a national leader in childhood immunizations. Program development resources, such as the County Health Profiles, assist in statewide efforts to build a culture of health and improve Mississippi health status. This report can be used as a resource to assist in the planning for ongoing and new health programs throughout the state of Mississippi, as well as to inform the general public of their county health status. MSDH is administered at the level of public health regions. However, to be consistent with other surveillance reports, some of the indicators in the County Health Profiles are still presented by public health district."
-           )
+           ),
+          tags$p(
+            "Want to learn more about Mississippi State Department of Health?, go to",
+            tags$a(
+              "https://www.msdh.ms.gov/", href="https://www.msdh.ms.gov/", target="_blank"
+            ),
+            "."
+          )
           ))
   })
   print("Before 2")
