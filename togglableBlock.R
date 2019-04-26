@@ -3,7 +3,11 @@ navBlockUI <- function(id) {
   tags$div(class = "dashboard-block",
     htmlOutput(ns("title")),
     htmlOutput(ns("tabsetPanelInBlock")),
-    downloadButton(ns('downloadData'), 'Download'),
+    tags$div(
+      class = "data-source",
+      htmlOutput(ns("sourceInfo"))
+    ),
+    downloadButton(ns('downloadData'), 'Download Date'),
     id = id
   )
 }
@@ -58,6 +62,13 @@ navBlock <- function(input, output, session, data, graphId, filename, labelx, ch
     
     callModule(tablePlot, "table", data)
   }
+  
+  output$sourceInfo <- renderUI({
+    tags$div({
+      class = "data-source"
+      tags$p("Source: U.S. Census Bureau, American Community Survey")
+    })
+  })
   
   output$downloadData <- downloadHandler(
     filename = function() {

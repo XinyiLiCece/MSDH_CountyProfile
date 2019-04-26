@@ -265,6 +265,12 @@
   font-size: 1.5rem;
 }
 
+.dashboard-block .data-source {
+  font-style: italic;
+  font-family: italic;
+  margin-top: 3rem;
+}
+
 .dashboard-block .shiny-download-link {
   align-self: flex-end;
   margin-top: -3.2rem;
