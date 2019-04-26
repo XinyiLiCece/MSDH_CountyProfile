@@ -11,11 +11,20 @@
     background-position: 1rem;
 }
 
-.title h1 {
+.page-router h1 {
     font-family: "Noto Sans", "Source Sans Pro", "Open Sans", Verdana, "Helvetica Neue", Arial, "Trebuchet MS", Sans-Serif;
     color: #006699;
 }
 
+.page-router {
+  float: right;
+  display: flex;
+  padding-right: 3rem;
+}
+
+.page-router button {
+  margin: 1rem;
+}
 
 .page1 {
     height: 25rem;
@@ -60,6 +69,19 @@
 
 #page1 .msdhIntro .msdhIntro-p p {
     margin: 1rem 0;
+}
+
+/*about page*/
+.aboutPage-container h2 {
+  text-align: center;
+}
+
+#about-msdhIntro {
+  width: 100%;
+  margin: 2rem auto;
+  padding: 1rem 4rem;
+  font-size: 1.5rem;
+  background-color: #F0F0F0;
 }
 
 /*profile page*/

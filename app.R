@@ -121,9 +121,10 @@ ui <- fluidPage(
   ),
   
   tags$div(class = "header", checked = NA, 
-           tags$div(class="title",
+           tags$div(class="page-router",
                     tags$h1(""),
-                    actionButton("aboutBtn", "about")
+                    actionButton("homeBtn", "Home"),
+                    actionButton("aboutBtn", "About")
            )
   ),
   
@@ -138,9 +139,19 @@ ui <- fluidPage(
 
 server <- function(input, output) {
   dA <- read.csv(file = "RaceByYearTemplet.csv", header = TRUE)
+  
   output$datacb <- renderTable({
     dA[c("year",input$variable), drop = FALSE]
   }, rownames = TRUE)
+  
+  observeEvent(input$homeBtn, {
+    change_page("home")
+  })
+  
+  observeEvent(input$aboutBtn, {
+    change_page("about")
+  })
+  
   router(input, output)
 }
 
@@ -183,10 +194,10 @@ home_server <- function(input, output, session) {
   callModule(profileSearch, "ps")
 }
 
-sidepage <- function(title) {
-  div(
-    htmlOutput("renderPage")
-  )
+  sidepage <- function(title) {
+    div(
+      htmlOutput("renderPage")
+    )
 }
 
 side_server <- function(input, output, session) {

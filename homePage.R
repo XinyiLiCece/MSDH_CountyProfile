@@ -1,18 +1,13 @@
 aboutPageUI <- function(id) {
   ns <- NS(id)
-  tags$div(class = "tabPanel-aboutPage",
-           tabsetPanel(
-             type = "tabs",
-             # tabPanel("Population Characteristics", msdhIntroUI(ns("intro"))),
-             tabPanel("Introduction of MSDH", htmlOutput(ns("msdhIntro"))),
-             id = "tabPanel-side-aboutPage"
-           ))
+  tags$div(class = "aboutPage-container",
+           tags$h2("About MSDH and County Health Profile"),
+           htmlOutput(ns("msdhIntro")))
   
 }
 
 aboutPage <- function(input, output, session) {
   #callModule(msdhIntro, "intro")
-  print("Before 1")
   output$msdhIntro <- renderUI({
     div(class = "msdhIntro",
         checked = NA,
