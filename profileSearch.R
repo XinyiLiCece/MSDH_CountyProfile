@@ -7,7 +7,10 @@ profileSearchUI <- function(id, inputText) {
                     # # htmlOutput(ns("searchMap")),
                     actionButton(class = "searchBox-btn", 
                                  ns("searchBtn"), "Go")
-           )
+           ),
+           leafletOutput(ns("mymap"))
+           # p(),
+           # actionButton("recalc", "New points")
   )
 }
 
@@ -42,5 +45,23 @@ profileSearch <- function(input, output, session) {
     change_page("side")
   })
   
+  # points <- eventReactive(input$recalc, {
+  #   cbind(rnorm(40) * 2 + 13, rnorm(40) + 48)
+  # }, ignoreNULL = FALSE)
+  # 
+  # output$mymap <- renderLeaflet({
+  #   leaflet() %>%
+  #     addProviderTiles(providers$Stamen.TonerLite,
+  #                      options = providerTileOptions(noWrap = TRUE)
+  #     ) %>%
+  #     addMarkers(data = points())
+  # })
+  
+  mapStates = map("state", fill = TRUE, plot = FALSE)
+  
+  output$mymap <- renderLeaflet({
+    leaflet(data = mapStates) %>% addTiles() %>%
+      addPolygons(fillColor = topo.colors(10, alpha = NULL), stroke = FALSE)
+  })
 }
 
