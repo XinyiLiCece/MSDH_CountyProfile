@@ -16,32 +16,6 @@
     color: #006699;
 }
 
-.main-tabPanel .nav-tabs{
-      background-color: #F0F0F0;
-      border-bottom: none !important;
-}
-
-.main-tabPanel .nav-tabs{
-   display: flex;
-   justify-content: center;
-}
-
-.main-tabPanel .nav-tabs>li>a {
-  font-size: 2rem;
-}
-
-.main-tabPanel .nav-tabs>li.active>a {
-    font-weight: 600 !important;
-    background-color: transparent;
-    border:none;
-}
-
-.main-tabPanel .nav-tabs>li>a:hover {
-    background-color: transparent;
-    border: 1px solid transparent;
-    border-bottom-color: #337ab7;
-}
-
 
 .page1 {
     height: 25rem;
@@ -88,7 +62,33 @@
     margin: 1rem 0;
 }
 
-/*page2*/
+/*profile page*/
+.profileContainer .nav-tabs{
+      background-color: #F0F0F0;
+      border-bottom: none !important;
+}
+
+.profileContainer .nav-tabs{
+   display: flex;
+   justify-content: center;
+}
+
+.profileContainer .nav-tabs>li>a {
+  font-size: 2rem;
+}
+
+.profileContainer .nav-tabs>li.active>a {
+    font-weight: 600 !important;
+    background-color: transparent;
+    border:none;
+}
+
+.profileContainer .nav-tabs>li>a:hover {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom-color: #337ab7;
+}
+
 /*sidebar*/
 .tabPanel-profilePage .nav-tabs>li:hover {
     background-color: #f4fbf0
@@ -126,24 +126,24 @@
   color: #006604;
 }
 
-#page2 #tabPanel-side-profilePage {
+#tabPanel-side-profilePage {
   display: flex;
   flex-direction: column;
-  background-color: transparent;
+  /*background-color: transparent;*/
   justify-content: flex-start;
 } 
 
-#page2 .tabPanel-plotBlock .tabbable {
+.tabPanel-profilePage .tabPanel-plotBlock .tabbable {
   display:flex;
   flex-direction:column-reverse
 }
 
-#page2 .tabPanel-plotBlock .nav-tabs {
+.tabPanel-profilePage .tabPanel-plotBlock .nav-tabs {
   width: 15rem;
   margin-top: 8rem;
 }
 
-#page2 .tabPanel-plotBlock .tab-content {
+.tabPanel-profilePage .tabPanel-plotBlock .tab-content {
   padding-top: 25px;
 }
 
@@ -161,21 +161,25 @@
 */
 
 /*profile-page update-search section*/
-.tabPanel-profileSearch .update-search {
+.update-search {
   display: flex;
   align-items: center;
   padding: 2rem;
 }
-.tabPanel-profileSearch .update-search .profile-searchBox {
+.update-search .profile-searchBox {
   margin: 0rem;
 }
 
-.tabPanel-profileSearch .update-search .profile-searchBox .form-group {
+.update-search .profile-searchBox .form-group {
+  display: flex;
+  align-items: center;
   justify-content: start;
   width: 100%;
+  padding-right: 2rem;
+  margin-bottom:0rem;
 }
 
-.tabPanel-profileSearch .update-search .searchBox-btn {
+.update-search .searchBox-btn {
   width: 13rem;
   margin: 0rem;
 }

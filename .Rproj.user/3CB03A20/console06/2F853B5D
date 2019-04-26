@@ -570,4 +570,116 @@ Total 18 (delta 10), reused 0 (delta 0)[0K
    f97a44d..3685c2a  master -> master[0K
 [0K[?25h[?25l
 [0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
-$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hsd[0K[?25l$ git as[0K[?25h[?25l$ git a[0K[?25h[?25l$ git[0K[7G[?25h[6G[?25l$ gi[0K[?25h[?25l$ g[0K[?25h[?25l$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[6G[?25l$ gi[0K[?25h[?25l$ g[0K[?25h[?25l$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add .[0K[?25h
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hsd[0K[?25l$ git as[0K[?25h[?25l$ git a[0K[?25h[?25l$ git[0K[7G[?25h[6G[?25l$ gi[0K[?25h[?25l$ g[0K[?25h[?25l$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[6G[?25l$ gi[0K[?25h[?25l$ g[0K[?25h[?25l$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add .[0K[?25h[?25l
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/3CB03A20/sources/prop/1B733BDF.[0K[?25l
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/3CB03A20/sources/prop/8CAF9005.[0K[?25l
+The file will have its original line endings in your working directory[0K
+[0K[?25h[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25h[16G[?25l$ git commit - '[0K[?25h'[0K[17G[16G[15G[?25l$ git commit -m ''[0K[16G[?25h[17G[18G[?25l$ git commit -m 'c'[0K[19G[?25h[?25l$ git commit -m 'co'[0K[20G[?25h[?25l$ git commit -m 'cou'[0K[21G[?25h[?25l$ git commit -m 'coun'[0K[22G[?25h[?25l$ git commit -m 'count'[0K[23G[?25h[?25l$ git commit -m 'county'[0K[24G[?25h[?25l$ git commit -m 'county '[0K[25G[?25h[?25l$ git commit -m 'county n'[0K[26G[?25h[?25l$ git commit -m 'county na'[0K[27G[?25h[?25l$ git commit -m 'county nam'[0K[28G[?25h[?25l$ git commit -m 'county name'[0K[29G[?25h[?25l$ git commit -m 'county name '[0K[30G[?25h[?25l$ git commit -m 'county name i'[0K[31G[?25h[?25l$ git commit -m 'county name is'[0K[32G[?25h[?25l$ git commit -m 'county name is '[0K[33G[?25h[?25l$ git commit -m 'county name is n'[0K[34G[?25h[?25l$ git commit -m 'county name is no'[0K[35G[?25h[?25l$ git commit -m 'county name is not'[0K[36G[?25h[?25l$ git commit -m 'county name is not '[0K[37G[?25h[?25l$ git commit -m 'county name is not s'[0K[38G[?25h[?25l$ git commit -m 'county name is not sh'[0K[39G[?25h[?25l$ git commit -m 'county name is not sho'[0K[40G[?25h[?25l$ git commit -m 'county name is not show'[0K[41G[?25h[?25l$ git commit -m 'county name is not show '[0K[42G[?25h[?25l$ git commit -m 'county name is not show'[0K[41G[?25h[?25l$ git commit -m 'county name is not show,'[0K[42G[?25h[?25l$ git commit -m 'county name is not show, '[0K[43G[?25h[?25l$ git commit -m 'county name is not show, a'[0K[44G[?25h[?25l$ git commit -m 'county name is not show, an'[0K[45G[?25h[?25l$ git commit -m 'county name is not show, and'[0K[46G[?25h[?25l$ git commit -m 'county name is not show, and '[0K[47G[?25h[?25l$ git commit -m 'county name is not show, and h'[0K[48G[?25h[?25l$ git commit -m 'county name is not show, and ho'[0K[49G[?25h[?25l$ git commit -m 'county name is not show, and how'[0K[50G[?25h[?25l$ git commit -m 'county name is not show, and how '[0K[51G[?25h[?25l$ git commit -m 'county name is not show, and how t'[0K[52G[?25h[?25l$ git commit -m 'county name is not show, and how to'[0K[53G[?25h[?25l$ git commit -m 'county name is not show, and how to '[0K[54G[?25h[?25l$ git commit -m 'county name is not show, and how to u'[0K[55G[?25h[?25l$ git commit -m 'county name is not show, and how to up'[0K[56G[?25h[?25l$ git commit -m 'county name is not show, and how to upd'[0K[57G[?25h[?25l$ git commit -m 'county name is not show, and how to upda'[0K[58G[?25h[?25l$ git commit -m 'county name is not show, and how to updat'[0K[59G[?25h[?25l$ git commit -m 'county name is not show, and how to updata'[0K[60G[?25h[?25l$ git commit -m 'county name is not show, and how to updat'[0K[59G[?25h[?25l$ git commit -m 'county name is not show, and how to update'[0K[60G[?25h[?25l$ git commit -m 'county name is not show, and how to update '[0K[61G[?25h[?25l$ git commit -m 'county name is not show, and how to update c'[0K[62G[?25h[?25l$ git commit -m 'county name is not show, and how to update co'[0K[63G[?25h[?25l$ git commit -m 'county name is not show, and how to update cou'[0K[64G[?25h[?25l$ git commit -m 'county name is not show, and how to update coun'[0K[65G[?25h[?25l$ git commit -m 'county name is not show, and how to update count'[0K[66G[?25h[?25l$ git commit -m 'county name is not show, and how to update county'[0K[67G[?25h[?25l$ git commit -m 'county name is not show, and how to update county '[0K[68G[?25h[?25l$ git commit -m 'county name is not show, and how to update county n'[0K[69G[?25h[?25l$ git commit -m 'county name is not show, and how to update county na'[0K[70G[?25h[?25l$ git commit -m 'county name is not show, and how to update county nam'[0K[71G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name'[0K[72G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name '[0K[73G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name w'[0K[74G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name wi'[0K[75G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name wit'[0K[76G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with'[0K[77G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with '[0K[78G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with s'[0K[79G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with se'[0K[80G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with see'[0K[81G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with seea'[0K[82G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with seeac'[0K[83G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with seeach'[0K[84G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with seeachb'[0K[85G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with seeachbo'[0K[86G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with seeachbox'[0K[87G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with seeachbo'[0K[86G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with seeachb'[0K[85G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with seeach'[0K[84G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with seeac'[0K[83G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with seea'[0K[82G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with see'[0K[81G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with se'[0K[80G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with s'[0K[79G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with '[0K[78G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with s'[0K[79G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with se'[0K[80G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with sel'[0K[81G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with sele'[0K[82G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with selec'[0K[83G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with select'[0K[84G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with selectb'[0K[85G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with selectbo'[0K[86G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with selectbox'[0K[87G[?25h[86G[85G[84G[83G[82G[81G[80G[79G[78G[77G[76G[75G[74G[75G[76G[77G[78G[79G[80G[81G[82G[83G[84G[85G[86G[85G[84G[?25l$ git commit -m 'county name is not show, and how to update county name with selecbox'[0K[83G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with selebox'[0K[82G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with selbox'[0K[81G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with sebox'[0K[80G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with seabox'[0K[81G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with searbox'[0K[82G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with searcbox'[0K[83G[?25h[?25l$ git commit -m 'county name is not show, and how to update county name with searchbox'[0K[84G[?25h[83G[82G[81G[80G[79G[78G[77G[76G[75G[73G[72G[71G[70G[69G[68G[67G[66G[65G[64G[63G[62G[61G[60G[59G[58G[57G[56G[55G[54G[53G[52G[51G[50G[49G[48G[47G[46G[45G[44G[43G[42G[41G[40G[39G[38G[37G[36G[35G[34G[33G[32G[31G[30G[29G[28G[27G[26G[25G[24G[23G[22G[21G[20G[19G[18G[17G[18G[?25l$ git commit -m 'acounty name is not show, and how to update county name with searchbox'[0K[19G[?25h[?25l$ git commit -m 'adcounty name is not show, and how to update county name with searchbox[0K
+'[0K[1A[20G[?25h[?25l$ git commit -m 'addcounty name is not show, and how to update county name with searchbo[0K
+x'[0K[1A[21G[?25h[?25l$ git commit -m 'add county name is not show, and how to update county name with searchb[0K
+ox'[0K[1A[22G[?25h[?25l$ git commit -m 'add scounty name is not show, and how to update county name with search[0K
+box'[0K[1A[23G[?25h[?25l$ git commit -m 'add secounty name is not show, and how to update county name with searc[0K
+hbox'[0K[1A[24G[?25h[?25l$ git commit -m 'add seacounty name is not show, and how to update county name with sear[0K
+chbox'[0K[1A[25G[?25h[?25l$ git commit -m 'add searcounty name is not show, and how to update county name with sea[0K
+rchbox'[0K[1A[26G[?25h[?25l$ git commit -m 'add searccounty name is not show, and how to update county name with se[0K
+archbox'[0K[1A[27G[?25h[?25l$ git commit -m 'add searchcounty name is not show, and how to update county name with s[0K
+earchbox'[0K[1A[28G[?25h[?25l$ git commit -m 'add searchbcounty name is not show, and how to update county name with[0K
+searchbox'[0K[1A[29G[?25h[?25l$ git commit -m 'add searchbocounty name is not show, and how to update county name with[0K
+ searchbox'[0K[1A[30G[?25h[?25l$ git commit -m 'add searchboxcounty name is not show, and how to update county name wit[0K
+h searchbox'[0K[1A[31G[?25h[?25l$ git commit -m 'add searchbox county name is not show, and how to update county name wi[0K
+th searchbox'[0K[1A[32G[?25h[?25l$ git commit -m 'add searchbox ocounty name is not show, and how to update county name w[0K
+ith searchbox'[0K[1A[33G[?25h[?25l$ git commit -m 'add searchbox oncounty name is not show, and how to update county name[0K
+with searchbox'[0K[1A[34G[?25h[?25l$ git commit -m 'add searchbox on county name is not show, and how to update county name[0K
+ with searchbox'[0K[1A[35G[?25h[?25l$ git commit -m 'add searchbox on pcounty name is not show, and how to update county nam[0K
+e with searchbox'[0K[1A[36G[?25h[?25l$ git commit -m 'add searchbox on prcounty name is not show, and how to update county na[0K
+me with searchbox'[0K[1A[37G[?25h[?25l$ git commit -m 'add searchbox on procounty name is not show, and how to update county n[0K
+ame with searchbox'[0K[1A[38G[?25h[?25l$ git commit -m 'add searchbox on profcounty name is not show, and how to update county[0K
+name with searchbox'[0K[1A[39G[?25h[?25l$ git commit -m 'add searchbox on proficounty name is not show, and how to update county[0K
+ name with searchbox'[0K[1A[40G[?25h[?25l$ git commit -m 'add searchbox on profilcounty name is not show, and how to update count[0K
+y name with searchbox'[0K[1A[41G[?25h[?25l$ git commit -m 'add searchbox on profilecounty name is not show, and how to update coun[0K
+ty name with searchbox'[0K[1A[42G[?25h[?25l$ git commit -m 'add searchbox on profile county name is not show, and how to update cou[0K
+nty name with searchbox'[0K[1A[43G[?25h[?25l$ git commit -m 'add searchbox on profile pcounty name is not show, and how to update co[0K
+unty name with searchbox'[0K[1A[44G[?25h[?25l$ git commit -m 'add searchbox on profile pacounty name is not show, and how to update c[0K
+ounty name with searchbox'[0K[1A[45G[?25h[?25l$ git commit -m 'add searchbox on profile pagcounty name is not show, and how to update[0K
+county name with searchbox'[0K[1A[46G[?25h[?25l$ git commit -m 'add searchbox on profile pagecounty name is not show, and how to update[0K
+ county name with searchbox'[0K[1A[47G[?25h[?25l$ git commit -m 'add searchbox on profile page,county name is not show, and how to updat[0K
+e county name with searchbox'[0K[1A[48G[?25h[?25l$ git commit -m 'add searchbox on profile page, county name is not show, and how to upda[0K
+te county name with searchbox'[0K[1A[49G[?25h[?25l$ git commit -m 'add searchbox on profile page, pcounty name is not show, and how to upd[0K
+ate county name with searchbox'[0K[1A[50G[?25h[?25l$ git commit -m 'add searchbox on profile page, prcounty name is not show, and how to up[0K
+date county name with searchbox'[0K[1A[51G[?25h[?25l$ git commit -m 'add searchbox on profile page, procounty name is not show, and how to u[0K
+pdate county name with searchbox'[0K[1A[52G[?25h[?25l$ git commit -m 'add searchbox on profile page, probcounty name is not show, and how to[0K
+update county name with searchbox'[0K[1A[53G[?25h[?25l$ git commit -m 'add searchbox on profile page, problcounty name is not show, and how to[0K
+ update county name with searchbox'[0K[1A[54G[?25h[?25l$ git commit -m 'add searchbox on profile page, problecounty name is not show, and how t[0K
+o update county name with searchbox'[0K[1A[55G[?25h[?25l$ git commit -m 'add searchbox on profile page, problemcounty name is not show, and how[0K
+to update county name with searchbox'[0K[1A[56G[?25h[?25l$ git commit -m 'add searchbox on profile page, problem>county name is not show, and how[0K
+ to update county name with searchbox'[0K[1A[57G[?25h[?25l$ git commit -m 'add searchbox on profile page, problemcounty name is not show, and how[0K
+to update county name with searchbox'[0K[1A[56G[?25h[?25l$ git commit -m 'add searchbox on profile page, problem:county name is not show, and how[0K
+ to update county name with searchbox'[0K[1A[57G[?25h[?25l
+
+[0K[?25h[master 49b22ea] add searchbox on profile page, problem:county name is not show, and how[0K[?25l
+to update county name with searchbox[0K
+ Committer: Li <Xinyi.Li@msdh.ms.gov>[0K
+Your name and email address were configured automatically based[0K
+on your username and hostname. Please check that they are accurate.[0K
+You can suppress this message by setting them explicitly. Run the[0K
+following command and follow the instructions in your editor to edit[0K
+your configuration file:[0K
+[0K
+    git config --global --edit[0K
+[0K
+After doing this, you may fix the identity used for this commit with:[0K
+[0K
+    git commit --amend --reset-author[0K
+[0K
+ 5 files changed, 67 insertions(+), 10 deletions(-)[0K
+[0K[?25h[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[?25l$ git ad[0K[?25h[?25l$ git a[0K[?25h[?25l$ git[0K[7G[?25h[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[?25l
+[0K[?25hEnumerating objects: 23, done.[0K[?25l
+Counting objects: 100% (23/23), done.[0K
+Delta compression using up to 8 threads[0K
+Compressing objects: 100% (11/11), done.[0K
+Writing objects: 100% (12/12), 2.34 KiB | 1.17 MiB/s, done.[0K
+Total 12 (delta 6), reused 0 (delta 0)[0K
+[0K[?25hremote: Resolving deltas: 100% (6/6), completed with 6 local objects.[0K[?25l
+[0K[?25hTo https://github.com/XinyiLiCece/MSDH_CountyProfile.git[0K[?25l
+   3685c2a..49b22ea  master -> master[0K
+[0K[?25h[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
+$[0K[3G[?25h[0m[0K]0;:/c/Users/Xinyi.Li/Documents/4_17/re(1)[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
+[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Kl[0Kl[0K[?25l
+[0K[?25hremote: Enumerating objects: 25, done.[0K[?25l
+remote: Counting objects:  56% (14/25)[0K[42G[?25h[?25lremote: Counting objects: 100% (25/25), done.[0K
+remote: Compressing objects: 100% (5/5), done.[0K
+remote: Total 16 (delta 11), reused 16 (delta 11), pack-reused 0[0K
+[0K[?25h[?25lUnpacking objects:   6% (1/16)[0K[1G[?25h[?25lUnpacking objects:  12% (2/16)[0K[1G[?25h[?25lUnpacking objects:  18% (3/16)[0K[1G[?25h[?25lUnpacking objects:  25% (4/16)[0K[1G[?25h[?25lUnpacking objects:  31% (5/16)[0K[1G[?25h[?25lUnpacking objects:  37% (6/16)[0K[1G[?25h[?25lUnpacking objects:  43% (7/16)[0K[1G[?25h[?25lUnpacking objects:  50% (8/16)[0K[1G[?25h[?25lUnpacking objects:  56% (9/16)[0K[1G[?25h[?25lUnpacking objects:  62% (10/16)[0K[1G[?25h[?25lUnpacking objects:  68% (11/16)[0K[1G[?25h[?25lUnpacking objects:  75% (12/16)[0K[1G[?25h[?25lUnpacking objects:  81% (13/16)[0K[1G[?25h[?25lUnpacking objects:  87% (14/16)[0K[1G[?25h[?25lUnpacking objects:  93% (15/16)[0K[1G[?25hUnpacking objects: 100% (16/16), done.[0K[?25l
+[0K[?25hFrom https://github.com/XinyiLiCece/MSDH_CountyProfile[0K[?25l
+   49b22ea..37f144c  master     -> origin/master[0K
+[0K[?25hUpdating 49b22ea..37f144c[0K[?25l
+Fast-forward[0K
+[0K[?25h .DS_Store              | Bin [0;31m0[0m -> [0;32m10244[0m bytes[0K[?25l
+ app.R                  | 180 [0;32m+++++++++++++++++++++++++++++++++++++++[0;31m----------[0m[0K
+ countyProfile.R        |   8 [0;32m+[0;31m--[0m[0K
+ homePage.R             |   2 [0;32m+[0m[0K
+ profilePage-pc.R       |   6 [0;32m+[0;31m-[0m[0K
+ profilePage-se.R       |  36 [0;31m----------[0m[0K
+ profilePage.R          |  58 [0;32m++[0;31m--------------[0m[0K
+ profilePageContainer.R |  42 [0;32m++++++++++++[0m[0K
+ profileSearch.R        |   5 [0;32m+[0;31m-[0m[0K
+ www/index.css          |  21 [0;32m++++++[0m[0K
+ 10 files changed, 224 insertions(+), 134 deletions(-)[0K
+ create mode 100644 .DS_Store[0K
+ delete mode 100644 profilePage-se.R[0K
+ create mode 100644 profilePageContainer.R[0K
+[0K[?25h[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add /[0K[?25h[?25l
+[0K[?25hfatal: C:/Users/Xinyi.Li/AppData/Local/Programs/Git/: 'C:/Users/Xinyi.Li/AppData/Local/P[0Kr[?25l
+ograms/Git/' is outside repository[0K
+[0K[?25h[?25l
+[0;32mXinyi.Li@D0079135 [0;35m [0;33m~/Documents/4_17/re(1)[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add /[0K[?25h.[0K[?25l$ git add /[0K[?25h[?25l$ git add[0K[11G[?25h[?25l$ git add .[0K[?25h

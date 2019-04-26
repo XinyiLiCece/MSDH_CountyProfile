@@ -101,7 +101,7 @@ source('table.R', local = TRUE)
 source('homePage.R', local = TRUE)
 source('msdh_intro.R', local = TRUE)
 source('submenu.R', local = TRUE)
-source('countyProfile.R', local = TRUE)
+# source('countyProfile.R', local = TRUE)
 source('profileSearch.R', local = TRUE)
 source('profilePageContainer.R', local = TRUE)
 source('profilePage-pc.R', local = TRUE)
@@ -169,30 +169,45 @@ about_server <- function(input, output, session) {
   callModule(aboutPage, "about")
   }
 
-mainPage <- function(title) {
+homepage <- function(title) {
   div(
-    h1(title),
-    htmlOutput("pageMain")
+    htmlOutput("search")
   )
 }
 
-main_server <- function(input, output, session) {
+home_server <- function(input, output, session) {
   ns <- session$ns
-  print("main server")
-  output$pageMain <- renderUI({
-    tags$div("fd")
-    countyProfileUI(ns("countyProf"))
+  output$search <- renderUI({
+    profileSearchUI(ns("ps"))
   })
-  callModule(countyProfile, "countyProf")
+  callModule(profileSearch, "ps")
+}
+
+sidepage <- function(title) {
+  div(
+    htmlOutput("renderPage")
+  )
+}
+
+side_server <- function(input, output, session) {
+  ns <- session$ns
+  # session$userData$cn <- "check userDate"
+  output$renderPage <- renderUI({
+    class = "page2"
+    profilePageContainerUI(ns("renderprofile"))
+  })
+  callModule(profilePageContainer, "renderprofile")
 }
 
 # Both sample pages.
 about_page <- abouPage("about")
-main_page <- mainPage("main")
+home_page <- homepage("Home page")
+side_page <- sidepage("Side page")
 
 router <- make_router(
-  route("main", main_page, main_server),
-  route("about", about_page, about_server)
+  route("home", home_page, home_server),
+  route("about", about_page, about_server),
+  route("side", side_page, side_server)
 )
 
 # Run the application 
